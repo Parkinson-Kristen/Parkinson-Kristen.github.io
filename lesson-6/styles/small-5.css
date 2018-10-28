@@ -1,7 +1,0 @@
-@media only screen and (max-width: 500px) {
-
-    /* Do not use duplicated declarations that are already established in the normalize.css */
-    
-    section.Weather-Summary { ______ }  /* show the 7-day forecast with the small view and up */
-
-  }
