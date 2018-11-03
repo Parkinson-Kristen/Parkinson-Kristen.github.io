@@ -1,0 +1,76 @@
+@media only screen and (min-width: 37.5em) {
+    
+    .topnav .icon { 
+    display:none; 
+    } 
+    
+    header{    
+    padding-left: 12.0rem;
+    padding-top: 8.0rem;
+    padding-right: 12.0rem;    
+    }
+    
+    .topnav  {    
+    display:flex;
+    padding-left: 12rem;    
+    }
+    
+    .topnav a {   
+    float:left;
+    text-align: center;
+    padding-left: 3px; 
+    width: 100%;
+    max-width: 210.5px;
+    }
+
+    main {
+    padding-left: 10%;  
+    padding-right: 10%;
+    }
+    
+    .Weather-Summary,.forecast {
+    flex: 50%;
+    padding: 2%;    
+    }
+    
+    .Weather-Summary{
+    border-right: 1px solid black;
+    width: 25%;
+    }
+    
+    main section, .forecast{
+    display: block;    
+    }
+    
+    .row{ 
+    display: flex;
+    }
+    
+    .forecast{
+    display:table;
+    width: 75%;
+    text-align: center;
+    }
+    
+    th{
+    border: 1px solid black;
+    }
+    
+    td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 7px;
+    }
+    
+    footer {
+    padding: 7%;    
+    }
+ 
+    div.pictureGallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    }
+  }

@@ -11,13 +11,30 @@ h1, h2, h3 {
 }
 
 header {
-    padding: .5rem 2%;
+    
+	padding: .5rem 2%;
     background-color: #0b5950;
     font-family: 'Tangerine', serif;
 }
-header h1 {margin: 0;}
-header h2 {margin: 0; font-weight: normal;}
+header h1 {margin: .5;}
+
+header h2 {margin: .5; font-weight: normal;}
+
+
+.logoheading {
+  display: grid;
+  grid-template-columns: 1fr 3fr 300px;
+  grid-gap:20px;
+  align-items: center;
+  padding: .5rem 2%;
+    background-color: #0b5950;
+    font-family: 'Tangerine', serif;
+	border: 1px 
+	border-radius: 3px;
+}
+ 
+}
 header figure.logo {
-    float: left;
+    float: right;
     margin: 0 2% 0 0;
 }
