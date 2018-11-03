@@ -40,6 +40,10 @@ header img {
     float: right;
 }
 
+nav nav-lessons {
+	display: flex;
+}
+
 footer {
     font-size: /* smaller */;
 }
