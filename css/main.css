@@ -7,6 +7,7 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
+	justify-content: flex-start;
     font-family: /* Ubuntu, sans-serif */;
     color: /* #xxxxxx */;
 }
@@ -42,6 +43,10 @@ header img {
 
 nav nav-lessons {
 	display: flex;
+}
+
+nav ul {
+    list-style-type: none;
 }
 
 footer {
