@@ -1,26 +1,9 @@
 @media only screen and (min-width: 37.5em) {
     
-    .topnav .icon { 
-    display:none; 
-    } 
-    
     header{    
     padding-left: 12.0rem;
     padding-top: 8.0rem;
     padding-right: 12.0rem;    
-    }
-    
-    .topnav  {    
-    display:flex;
-    padding-left: 12rem;    
-    }
-    
-    .topnav a {   
-    float:left;
-    text-align: center;
-    padding-left: 3px; 
-    width: 100%;
-    max-width: 210.5px;
     }
 
     main {
@@ -28,18 +11,13 @@
     padding-right: 10%;
     }
     
-    .Weather-Summary,.forecast {
+    section.Weather-Summary,.forecast {
     flex: 50%;
     padding: 2%;    
     }
     
-    .Weather-Summary{
-    border-right: 1px solid black;
-    width: 25%;
-    }
-    
-    main section, .forecast{
-    display: block;    
+    section.Weather-Summary{
+    width: auto;
     }
     
     .row{ 
