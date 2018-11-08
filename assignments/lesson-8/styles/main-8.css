@@ -1,0 +1,233 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+  font-size: 18px;
+  font-family: 'Charmonman', serif;
+}
+h1 {
+    Font-size: 65px;
+	font-family: 'Tangerine', serif;
+}
+
+h2, h3 {
+	Font-size: 24px;
+	font-family: 'Exo', serif;
+	
+}
+
+header {
+    padding: .25rem .5%;
+    font-family: 'Tangerine', serif;
+	justify-content: center;
+	align-items: center;
+}
+
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+        }
+
+
+header h1 {
+	margin: 0;
+	display: flex;
+	display-grid: flex;
+	justify-content: center;
+	align-items: center;
+}
+header h2 {
+	margin: 0;
+	display: flex;
+	justify-content: center;	
+	font-weight: normal;}
+	
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+	
+header div.logopicture img {
+	float: center;
+    width: auto;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+div.logoheading {
+    float: center;
+	display: flex;
+	background-color: #0b5950;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+nav button {
+    display: block;
+    position: absolute;
+    margin-top: 0.1rem;
+    margin-left: .5rem;
+}
+
+nav ul {
+    list-style-type: none;
+	padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+
+nav {
+  background-color:#962506;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    }
+	*/
+nav ul li {
+    text-align: center;
+    border-bottom: 1px solid #9c2504;
+    }
+nav ul li a {
+   display: block;
+    background-color: #9c2504;
+    color: #eee;
+    border-left: 3px solid #9c2504;
+    padding: .5rem;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+    }
+nav ul li:first-child a {border-left: none;}
+
+nav ul li a:hover {
+    background-color: #eee;
+    color: #333;
+    }
+nav ul li.active a {
+    background-color: #f18669;
+    color: #fff;
+    }
+nav ul.hide {display: none;}
+
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+/*main figure.prestonpic {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+main figure.partlysunnypic {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+main figure.fallleafpic {
+    width: 50%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+main figure.partlysunnypic img { width: 100%; margin: 0;}
+main figure.partlysunnypic figcaption{text-align: center; font-size: .75rem}
+
+main figure.prestonpic img { width: 100%; margin: 0;}
+main figure.prestonpic figcaption{text-align: center; font-size: .75rem}
+
+main figure.fallleafpic img { width: 100%; margin: 0;}
+main figure.fallleafpic figcaption{text-align: center; font-size: .75rem}
+*/
+
+section.Weather-Report {
+	margin: 0;
+	box-sizing: border-box;
+	border-style: dashed;
+	width: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+section.7-Day-Outlook {
+	width: auto;
+	align-items: center;
+}
+
+article {
+    width: auto;
+    overflow: hidden;
+    border-style: dashed;
+    margin-top: 1.0rem;
+}
+
+div.Weekly-Highlights {
+    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    float: left;
+    width: auto;
+    /* fill the page in the small/phone view */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+div.Weekly-Highlights img {
+    float: right;
+    width: 35%;
+    margin-top: -1.0rem;
+    margin-bottom: 1.0rem;
+}
+
+/*  Picture Gallery Grid  */
+
+div.pictureGallery {
+    padding: 1rem 2%;
+    display: grid;
+	grid-template-columns: flex;
+}
+
+div.pictureGallery figure {
+    margin: 1rem;
+    border: 1.5px solid #0b5950;
+}
+
+div.pictureGallery figure img {
+    width: 100%;
+}
+
+div.pictureGallery figure figcaption {
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+footer {
+	margin: 1rem 0 0 1rem;
+	background-color: #0b5950;
+    padding: .5rem 2%;
+    text-align: center;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
