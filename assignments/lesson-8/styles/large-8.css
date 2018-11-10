@@ -12,6 +12,6 @@
 		grid-row-gap: 5px;
 }
 	div.pictureGallery figure:hover {
-		box-shadow: 3px 15px 10px maroon;
+		box-shadow: 3px 15px 10px #139E90;
 	}
 }

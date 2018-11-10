@@ -7,11 +7,10 @@
       <meta name="description" content="The Weather Site Project">
     
      <link rel="stylesheet" href="styles/normalize.css">
-	 <link rel="stylesheet" href="styles/small-7.css">
-	 <link rel="stylesheet" href="styles/medium-7.css">
-     <link rel="stylesheet" href="styles/large-7.css">
-	 <link rel="stylesheet" href="styles/main-7.css">
-	 <!--<link rel="stylesheet" href="styles/style.css">-->
+	 <link rel="stylesheet" href="styles/small-8.css">
+	 <link rel="stylesheet" href="styles/medium-8.css">
+     <link rel="stylesheet" href="styles/large-8.css">
+	 <link rel="stylesheet" href="styles/main-8.css">
 	 
 	 <!--Google Fonts -->
 	<link rel="stylesheet"
@@ -43,51 +42,55 @@
 	</div>
 	
   </header>
-
   
-  <nav>
+ <nav>
 	
     <ul class="Locations">
-			
-    	<li><a href="/index.html">Home</a></li
-    	<li><a href="/assignments/preston-7.html">Preston</a></li>
+		 <button onclick="toggleMenu()">&#9788;</button>
+    <ul class="hide mainmenu" id="primaryNav">
+    	<li><a href="/index.html">Home</a></li>
+    	<li><a href="preston-8.html">Preston</a></li>
     	<li><a href="#">Soda Springs</a></li>
     	<li><a href="#">Fish Haven</a></li>
-    	<li> class="active"><a href="stormcenter.html">Storm Center</a></li>
-    	<li><a href="/assignments/gallery-7.html">Gallery</a></li>
+    	<li class="active"><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery-8.html">Gallery</a></li>
     </ul>		
   </nav>
     
   <main>
-	<br>
-	<picture>
+	<br><br>
+	<center>
 	<h2>The Town of Preston</h2>
-  <img src="images/PrestonS.jpg" alt="Preston photo Small" sizes="100vw"
-		srcset= "images/PrestonL.jpg 1200w,images/PrestonM.jpg 800w, images/PrestonS.jpg 600w">
-	</picture>
+	
+	<figure class="prestonpic">
+  <img src="images/PrestonS.jpg" alt="Preston photo Small" sizes="100w"
+		srcset= "images/PrestonL.jpg 975w,images/PrestonM.jpg 800w, images/PrestonS.jpg 600w">
+	</figure>
+	
     
     <section class="Weather-Report" class="center">
       <h3>Weather Report</h3>    
       <div class="Weather-Details">
-        <p class="label">Currently:</p> 
-		<p class="value">Partly Coudy</p>
-		Partly Cloudy
+        <p>Currently:</p> 
+		<p>Partly Coudy</p>
+	
         <picture>
-            <img src="images/part-cloudy.png" width="100" height="auto"    alt="Partly Cloudy day">
+            <img class="roundrect" src="images/part-cloudy.png" width="100" height="auto"    alt="Partly Cloudy day">
         </picture>
-        <p class="label">Temperature:</p>
-		<p class="value">62 &deg;F</p>
-		<p class="label">Humidity:</p>
-		<p class="value">69%</p>
-		<p class="label">Precipitation:</p>
-		<p class="value">0 inches</p>
-		<p class="label">Wind Speed:</p>
-		<p class="value">5 mph</p>
+		
+        <p>Today's High: 90 &deg;F</p>
+		<p>Today's Low: 66 &deg;F</p>
+		<p>Humidity: 10%</p>
+		<p>Precipitation: 0 inches</p>
+		<p>Wind Speed: 5 mph</p>
+		<p>Wind Direction: SouthWest</p>
+		<p>Wind Chill: <span id="windchill">Current Wind Chill Placeholder</span><p/>
+		
       </div>           
     </section>
         
-    <section class="7-Day-Outlook">
-      <h3>7 Day Outlook</h3>
+    <section class="5-Day-Outlook">
+      <h3>5 Day Outlook</h3>
       <table>
         <thead>
           <tr>
@@ -96,19 +99,15 @@
             <th>Day 3</th>
             <th>Day 4</th>
             <th>Day 5</th>
-            <th>Day 6</th>
-            <th>Day 7</th>
           </tr>
 	</thead>
         <tbody>  
           <tr>
-            <td>62&deg;F</td>
-            <td>69&deg;F</td>
-            <td>61&deg;F</td>
-            <td>55&deg;F</td>
-            <td>50&deg;F</td>
-            <td>47&deg;F</td>
-            <td>47&deg;F</td>
+            <td>92&deg;F</td>
+            <td>89&deg;F</td>
+            <td>91&deg;F</td>
+            <td>95&deg;F</td>
+            <td>90&deg;F</td>
           </tr>
 		</tbody>
       </table>
@@ -116,19 +115,20 @@
       
     <article>
       <h2>Fall Foliage Festival</h2>
-		<h3>by Leslie Leaf</h3>
+		<h4>by Leslie Leaf</h4>
       
       <div class="Weekly-Highlights"><img src= "images/FallLeafFestival.jpg" alt="Article">
        A walk through the splendid fall leaves of Preston will certainly bring some pink to your cheeks!  Take time this weekend to
 	   explore the great outdoors with friends and family.  Be sure to stop by the Preston Farmers Market.  In December the market will
 	   switch to a Christmas market featuring wares from vendors state-wide.</div>
-    </article>		  
+    </article>	
+<br><br>	
   
   </main>
     
   <footer>
     <section class="contact">
-      The Weather Guru
+      The Weather Guru 
       30 N 1st E
       Preston, ID 83263
     </section>
@@ -139,6 +139,7 @@
   
 	<script src="scripts/currentdate.js"></script>
 	<script src="scripts/hamburger.js"></script>
+	<script src="scripts/windchill.js"></script>
 
 </body>
 </html>

@@ -1,10 +1,13 @@
-    var high =90;
-    var low =65;
-    var wSpeed =5;
-var tempaverage= ((high + low) /2);
-    
-var windChill= 35.74 + (0.6215 * tempaverage) - (35.75 * Math.pow(wSpeed, 0.16)) + (0.4275 * tempaverage) * Math.pow(wSpeed, 0.16);
-windChill= Math.round(windChill)  +  "&deg;F";
+   	var high = 90;
+	var low = 66;
+	var windSpeed = 5;
 
-    
-  document.getElementById ("windChill").innerHTML= windChill;
+
+	var aveTemp = ((high + low) / 2);
+	var s = (Math.pow(windSpeed, 0.16));
+	var windchill = 35.74 + (0.6215 * aveTemp) - (35.75 * s) +	(0.4275 * aveTemp * s);
+
+	windchill = Math.round(windchill) + "&deg;F";
+
+document.getElementById("windchill").innerHTML = windchill;
+

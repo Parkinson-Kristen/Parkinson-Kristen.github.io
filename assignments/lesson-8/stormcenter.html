@@ -11,7 +11,6 @@
 	 <link rel="stylesheet" href="styles/medium-8.css">
      <link rel="stylesheet" href="styles/large-8.css">
 	 <link rel="stylesheet" href="styles/main-8.css">
-	 <!--<link rel="stylesheet" href="styles/style.css">-->
 	 
 	 <!--Google Fonts -->
 	<link rel="stylesheet"
@@ -44,34 +43,100 @@
 	
   </header>
   
-   <nav>
+ <nav>
 	
     <ul class="Locations">
-			
-    	<li><a href="/index.html">Home</a></li
-    	<li><a href="/assignments/preston-8.html">Preston</a></li>
+		<ul class="Locations">
+		 <button onclick="toggleMenu()">&#9788;</button>
+    	<li><a href="/index.html">Home</a></li>
+    	<li><a href="preston-8.html">Preston</a></li>
     	<li><a href="#">Soda Springs</a></li>
     	<li><a href="#">Fish Haven</a></li>
     	<li class="active"><a href="stormcenter.html">Storm Center</a></li>
-    	<li><a href="/gallery-8.html">Gallery</a></li>
+    	<li><a href="gallery-8.html">Gallery</a></li>
     </ul>		
   </nav>
 
   <main>
-	<br>
+  <br>
+	<center>
 	<h1>Storm Center</h1>
 	<picture>
 	<img src="images/stormcenter.jpg" alt="Stormcenter" class="center">
-	</picture>
+	</picture><br><br>
   
+<body>
 
-  
-  
-  
-  
-  
-  
-  <footer>
+  <main class="center" >
+     <form method="get" action="thanks.html" >
+         <fieldset>
+            <legend> Contact Information </legend><br>
+			
+			<center>
+             
+             <label><span>Full Name:</span> <input type="text" name="fname" placeholder="First and Last name" pattern="[A-z\s]{5,}" required autocomplete="off"> </label>
+             
+              <br><br><label><span>Email:</span><input type="email" name="email" placeholder="ex:user@byu.edu" autocomplete="off"></label>
+             
+               <br><br><label><span>Phone:</span><input type="tel" name="phone" placeholder="###-###-####" required autocomplete="off"></label>
+             
+                <br><br><label><span>Zip code:</span> <input type="number" name="zipcode" placeholder="12345" pattern="{\d{5}([\-]d{4})?)" required autocomplete="off"></label>
+          </fieldset><br>
+         
+         <fieldset>
+            <legend>Storm Report</legend>
+             
+				<center>
+                <label><span>Date of Storm:</span><input type="date" name="date"></label> 
+				
+				<br><br><label><span>Approximate time of storm:</span><input type="time" name="time"></label>
+                
+                <br><br><label><span>Storm Type:</span><input type="text"  name="stormtype" list="storms">
+                    <datalist id="storms">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+					<option value="Heavy Snowfall"></option>
+					<option value="Freazing Fog"></option>
+                    </datalist>
+             </label>
+                <br><br><label><span>Storm Severity: From 1 to 10: </span>
+		              <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		              <span id="ratingvalue">5</span>
+                </label>
+            
+              <br><br><label><span>Storm Region:</span>
+                  <select name="stormregion">
+                  <option value="select" disabled selected>Select Region</option>
+                  <option value="preston">Preston</option>
+                  <option value="sodasprings">Soda Springs</option>
+                  <option value="fishhaven">Fish Haven</option>
+                  </select><br><br>
+             </label>
+        
+                 
+             <span>User In-Danger Level - Choose one:</span><br>
+               <label><input type="radio" name="dangerYes" value="yes">Yes</label>
+               <label><input type="radio" name="dangerMaybe" value="maybe">Maybe</label>
+               <label><input type="radio" name="dangerNo" value="no">No</label>
+        
+             
+           <br><br><label ><span>Additional Information or Comments</span>
+                 <textarea name="adtlinfoorcomment"></textarea>
+            </label>
+         </fieldset><br>
+         
+         
+          <input type="submit" value="Submit your report" class="submitbutton">
+		  <br>
+        
+                
+	</form>
+  </main>
+  <br>
+ <footer>
     <section class="contact">
       The Weather Guru
       30 N 1st E
@@ -84,6 +149,8 @@
   
 	<script src="scripts/currentdate.js"></script>
 	<script src="scripts/hamburger.js"></script>
+	<script scr="scripts/stormrating.js></script>
+	<script scr="scripts/adjustRating.js></script>
 
 </body>
 </html>
