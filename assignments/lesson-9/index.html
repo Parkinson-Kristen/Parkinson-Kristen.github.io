@@ -92,12 +92,11 @@
 var requestURL = 'https://parkinson-kristen.github.io/assignments/lesson-9/towndata.json';
 var request = new XMLHttpRequest();
     request.open('GET', requestURL);
-    request.responseType = 'json';
-    request.send();
-        
+    request.responseType = 'text';
+    request.send(); 
     request.onload = function() {
-    var cityInfo = request.response;
-    showCitydata(cityInfo);
+		var cityInfo = request.response;
+		showCitydata(cityInfo);
         }
         
     function showCitydata(jsonObj) {
