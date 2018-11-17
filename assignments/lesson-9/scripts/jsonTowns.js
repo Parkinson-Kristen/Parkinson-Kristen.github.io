@@ -19,20 +19,17 @@ var request = new XMLHttpRequest();
             var myArticle = document.createElement('article');
             var myH2 = document.createElement('h2');
             var myH3 = document.createElement('h3');
-			var myImage = document.getElementById('myImg').src;
             var myPara1 = document.createElement('p');
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p')
 
             myH2.textContent = intro[i].name;
-			myImage.textContent = intro[i].imgPath;
             myH3.textContent = 'Motto: ' + intro[i].motto;
             myPara1.textContent = 'Year Founded: ' + intro[i].yearFounded;
             myPara2.textContent = 'Population: ' + intro[i].currentPopulation;
             myPara3.textContent = 'Average Rainfall: ' + intro[i].averageRainfall;
 
             myArticle.appendChild(myH2);
-			myArticle.appendChild(myImg);
             myArticle.appendChild(myH3);
             myArticle.appendChild(myPara1);
             myArticle.appendChild(myPara2);
