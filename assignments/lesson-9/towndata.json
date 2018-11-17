@@ -2,6 +2,7 @@
 	"towns": [
  {
     "name": "Preston",
+	"imgPath":"images/PrestonM.jpg",
     "motto": "Home of Napoleon Dynamite",
     "yearFounded": 1866,
     "currentPopulation": 5204,
@@ -14,6 +15,7 @@
   },
    {
     "name": "Soda Springs",
+	"imgPath": "images/SodaSpringsM.jpg",
     "motto": "Historic Oregon Trail Oasis. The Soda is on Us",
     "yearFounded": 1858,
     "currentPopulation": 2985,
@@ -26,6 +28,7 @@
   },
    {
     "name": "Fish Haven",
+	"imgPath": "images/FishHavenM.jpg",
     "motto": "Green is our way of life.",
     "yearFounded": 1864,
     "currentPopulation": 501,
