@@ -6,13 +6,13 @@ var request = new XMLHttpRequest();
     request.send();
         
     request.onload = function() {
-    var cityInfo = request.response;
-    showCitydata(cityInfo);
+    var townInfo = request.response;
+    showTownInfo(townInfo);
         }
         
-    function showCitydata(jsonObj) {
-        var cities = jsonObj['towns'];
-        for (var i = 0; i < cities.length; i++) {
+    function showTownInfo(jsonObj) {
+        var town = jsonObj['towns'];
+        for (var i = 0; i < town.length; i++) {
             
             if (i === 2) {
                 continue;
@@ -27,12 +27,12 @@ var request = new XMLHttpRequest();
             var myPara4 = document.createElement('p');
             var myList = document.createElement('ul');
 
-            myH2.textContent = cities[i].name;
-			myImage.textContent = cities[i].imgPath;
-            myH3.textContent = 'Motto: ' + cities[i].motto;
-            myPara1.textContent = 'Year Founded: ' + cities[i].yearFounded;
-            myPara2.textContent = 'Population: ' + cities[i].currentPopulation;
-            myPara3.textContent = 'Average Rainfall: ' + cities[i].averageRainfall;
+            myH2.textContent = town[i].name;
+			myImage.textContent = town[i].imgPath;
+            myH3.textContent = 'Motto: ' + town[i].motto;
+            myPara1.textContent = 'Year Founded: ' + town[i].yearFounded;
+            myPara2.textContent = 'Population: ' + town[i].currentPopulation;
+            myPara3.textContent = 'Average Rainfall: ' + town[i].averageRainfall;
 
             myArticle.appendChild(myH2);
 			myArticle.appendChild(myImg);
