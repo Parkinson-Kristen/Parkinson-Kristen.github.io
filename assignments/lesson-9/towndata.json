@@ -1,6 +1,5 @@
- {
-  "towns" : [
- 
+{
+  "towns": [
   {
     "name": "Fish Haven",
 	"imgPath" : "https://parkinson-kristen.github.io/assignments/lesson-9/images/FishHavenM.jpg",
@@ -40,6 +39,6 @@
       "May 1-6: Days of May Celebration",
       "October 15-16: Octoberfest"
     ]
-  },
+  }
  ]
 }
