@@ -19,7 +19,7 @@ var request = new XMLHttpRequest();
             var myArticle = document.createElement('article');
             var myH2 = document.createElement('h2');
             var myH3 = document.createElement('h3');
-			var myImage = document.getElementById('myImg').src;
+			var myImage = document.getElementById('imgPath');
             var myPara1 = document.createElement('p');
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p')
@@ -32,7 +32,7 @@ var request = new XMLHttpRequest();
             myPara3.textContent = 'Average Rainfall: ' + intro[i].averageRainfall;
 
             myArticle.appendChild(myH2);
-			myArticle.appendChild(myImg);
+			myArticle.appendChild(myImage);
             myArticle.appendChild(myH3);
             myArticle.appendChild(myPara1);
             myArticle.appendChild(myPara2);
