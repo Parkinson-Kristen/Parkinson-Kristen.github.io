@@ -17,13 +17,13 @@
 	
 /* Home Page - Town Intro pics for large format */
 
-	.homepage {
+	.introGrid {
 		padding: 1rem 2%;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr;
-		grid-column-gap: 5px;
-		grid-row-gap: 5px;
+		grid-column-gap: 2px;
+		grid-row-gap: 2px;
 }
 	
 }

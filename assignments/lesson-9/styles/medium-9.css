@@ -59,7 +59,7 @@
 	
 	/* Home Page - Town Intro pics for Medium format */
 
-	.homepage {
+	.introGrid {
 		padding: 1rem 2%;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
