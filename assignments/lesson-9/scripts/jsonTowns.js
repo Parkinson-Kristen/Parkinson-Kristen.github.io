@@ -11,7 +11,7 @@ var request = new XMLHttpRequest();
         }
         
     function showTownIntro(jsonObj) {
-        var intro = jsonObj['towns'];
+        var intro = jsonObj['townIntro'];
         for (var i = 0; i < intro.length; i++) {		
             var myArticle = document.createElement('article');
             var myH2 = document.createElement('h2');
