@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">   
+      <title>Main Page</title>
+      <meta name="description" content="The Weather Site Project">
+    
+     <link rel="stylesheet" href="styles/normalize.css">
+	 <link rel="stylesheet" href="styles/small-9.css">
+	 <link rel="stylesheet" href="styles/medium-9.css">
+     <link rel="stylesheet" href="styles/large-9.css">
+	 <link rel="stylesheet" href="styles/main-9.css">
+	 
+	 <!--Google Fonts -->
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Tangerine:300,700 rel="stylesheet">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Charmonman">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Exo">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+     
+</head>
+
+<body>
+
+  <header>
+	<div class="logopicture">
+	<picture>
+    <img src="images/part-cloudy.png" alt="part-cloudy" class="center">
+	</picture>
+	</div>
+	
+	<div class="logoheading">
+	<h1>Daydream Weather Site</h1>
+	<h2>For the weather you actually care about!</h2>
+	
+	</div>
+  </header>
+  
+ <nav>
+    <ul class="Locations">
+		 <button onclick="toggleMenu()">&#9788;</button>
+    <ul class="hide mainmenu" id="primaryNav">
+    	<li class="active"><a href="/index.html">Home</a></li>
+    	<li><a href="preston-8.html">Preston</a></li>
+    	<li><a href="#">Soda Springs</a></li>
+    	<li><a href="#">Fish Haven</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery-8.html">Gallery</a></li>
+    </ul>		
+  </nav>
+  <br><br>
+  
+ <main>
+ <center><h1>Welcome!</h1>
+ 
+	<div class="homepage">
+		
+	
+	<section class="townIntroP">
+		<figure>
+			<img src="images/PrestonM.jpg" alt="Preston" 
+			>
+			<figcaption>Preston</figcaption>
+		</figure>
+		</section>
+		
+	<section class="townIntroF">
+		<figure>
+			<img src="images/FishHavenM.jpg" alt="Fish Haven"></img>
+			<figcaption>Fish Haven</figcaption>
+		</figure>
+		</section>
+		
+	<section class="townIntroS">
+		<figure>
+			<img src="images/SodaSpringsM.jpg" alt="Soda Springs"></img>
+			<figcaption>Soda Springs</figcaption>
+		</figure>
+	</section>
+	</div>
+		
+	<section class="townInfo">
+	
+	</section>
+	
+	<br><br>
+	
+ </main> 
+  
+   <footer>
+    <section class="contact">
+      The Weather Guru 
+      30 N 1st E
+      Preston, ID 83263
+    </section>
+	<br>
+    <section class="footer-bar">&copy;2018 The Weather Site Project | Attributions | Kristen Parkinson | <span id="currentdate">Current Date Placeholder</span>
+    </section>
+  </footer>
+  
+	<script src="scripts/currentdate.js"></script>
+	<script src="scripts/hamburger.js"></script>
+	<script src="scripts/jsondata.js"></script>
+	
+
+</body>
+</html>
