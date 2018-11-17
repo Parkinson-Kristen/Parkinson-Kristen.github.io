@@ -2,7 +2,7 @@
 	"towns": [
  {
     "name": "Preston",
-	"imgPath":"images/PrestonM.jpg",
+	"imgPath":"https://parkinson-kristen.github.io/assignments/lesson-9/images/PrestonM.jpg",
     "motto": "Home of Napoleon Dynamite",
     "yearFounded": 1866,
     "currentPopulation": 5204,
