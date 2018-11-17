@@ -12,10 +12,7 @@ var request = new XMLHttpRequest();
         
     function showTownIntro(jsonObj) {
         var intro = jsonObj['towns'];
-        for (var i = 0; i < intro.length; i++) {
-            if (i === 2) {
-                continue;}
-				
+        for (var i = 0; i < intro.length; i++) {		
             var myArticle = document.createElement('article');
             var myH2 = document.createElement('h2');
             var myH3 = document.createElement('h3');
