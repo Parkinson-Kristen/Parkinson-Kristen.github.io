@@ -11,8 +11,8 @@ var request = new XMLHttpRequest();
         }
         
     function showCitydata(jsonObj) {
-        var cities = jsonObj['towns'];
-        for (var i = 0; i < cities.length; i++) {
+        var townInfo = jsonObj['towns'];
+        for (var i = 0; i < townInfo.length; i++) {
             
             if (i === 3) {
                 continue;
@@ -26,16 +26,16 @@ var request = new XMLHttpRequest();
             var myPara2 = document.createElement('p');
             var myPara3 = document.createElement('p')
 
-            myH2.textContent = cities[i].name;
-			myImage.textContent = cities[i].imgPath;
-			myImage.setAttribute("src", cities[i].imgPath);
+            myH2.textContent = townInfo[i].name;
+			myImage.textContent = townInfo[i].imgPath;
+			myImage.setAttribute("src", townInfo[i].imgPath);
 				/*myImage.setAttribute("width", "304");
 				myImage.setAttribute("height", "228");
-				myImage.setAttribute("alt", "The Pulpit Rock");	*/		
-            myH3.textContent = 'Motto: ' + cities[i].motto;
-            myPara1.textContent = 'Year Founded: ' + cities[i].yearFounded;
-            myPara2.textContent = 'Population: ' + cities[i].currentPopulation;
-            myPara3.textContent = 'Average Rainfall: ' + cities[i].averageRainfall;
+				myImage.setAttribute("alt", "Photo description");	*/		
+            myH3.textContent = 'Motto: ' + townInfo[i].motto;
+            myPara1.textContent = 'Year Founded: ' + townInfo[i].yearFounded;
+            myPara2.textContent = 'Population: ' + townInfo[i].currentPopulation;
+            myPara3.textContent = 'Average Rainfall: ' + townInfo[i].averageRainfall;
 
             myArticle.appendChild(myH2);
 			myArticle.appendChild(myImage);
