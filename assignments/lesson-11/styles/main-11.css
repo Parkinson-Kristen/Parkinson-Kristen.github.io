@@ -12,6 +12,7 @@ body {
 
 h1 {
     Font-size: 65px;
+	text-align: center;
 	font-family: 'Charmonman', serif;
 }
 
@@ -176,6 +177,7 @@ section.PrestonWeather-Report {
 	left: 10%;
 	bottom: 5%
 }
+
 
 .currentP {
 	display: block;
