@@ -64,5 +64,15 @@
 
 	/*nav li:first-child a {border-left: none;}*/
 	
+/* Stormcenter */
+
+.reportingcenter {
+	padding: 1rem 2%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		
+}
 
   }
+  
+  
