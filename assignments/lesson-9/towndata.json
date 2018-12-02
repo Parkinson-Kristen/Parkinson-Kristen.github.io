@@ -14,19 +14,6 @@
     ]
   },
   {
-    "name": "Soda Springs",
-	"imgPath" : "https://parkinson-kristen.github.io/assignments/lesson-9/images/SodaSpringsM.jpg",
-    "motto": "Historic Oregon Trail Oasis. The Soda is on Us",
-    "yearFounded": 1858,
-    "currentPopulation": 2985,
-    "averageRainfall": 15.75,
-    "events" : [
-      "February 29: Geyser Song Day",
-      "May 1-6: Days of May Celebration",
-      "October 15-16: Octoberfest"
-    ]
-  }, 
-  {
     "name": "Fish Haven",
 	"imgPath" : "https://parkinson-kristen.github.io/assignments/lesson-9/images/FishHavenM.jpg",
     "motto": "This is Fish Heaven.",
@@ -38,6 +25,19 @@
       "May 15-30: Rush the Creek Days",
       "July 24: Bear Lake Blunder Run",
       "December 12: Light the Tree"
+    ]
+  },
+ {
+    "name": "Soda Springs",
+	"imgPath" : "https://parkinson-kristen.github.io/assignments/lesson-9/images/SodaSpringsM.jpg",
+    "motto": "Historic Oregon Trail Oasis. The Soda is on Us",
+    "yearFounded": 1858,
+    "currentPopulation": 2985,
+    "averageRainfall": 15.75,
+    "events" : [
+      "February 29: Geyser Song Day",
+      "May 1-6: Days of May Celebration",
+      "October 15-16: Octoberfest"
     ]
   } 
  ]

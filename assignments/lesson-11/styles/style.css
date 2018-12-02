@@ -1,0 +1,23 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  font-family: 'Exo', serif;
+}
+h1, h2, h3 {
+    font-family: 'Lato', serif;
+}
+
+header {
+    padding: .5rem 2%;
+    background-color: #0b5950;
+    font-family: 'Tangerine', serif;
+}
+header h1 {margin: 0;}
+header h2 {margin: 0; font-weight: normal;}
+header figure.logo {
+    float: left;
+    margin: 0 2% 0 0;
+}

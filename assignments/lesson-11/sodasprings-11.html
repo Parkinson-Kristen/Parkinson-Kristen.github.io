@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">   
+      <title>Soda Springs Weather</title>
+      <meta name="description" content="The Weather Site Project">
+    
+     <link rel="stylesheet" href="styles/normalize.css">
+	 <link rel="stylesheet" href="styles/small-11.css">
+	 <link rel="stylesheet" href="styles/medium-11.css">
+     <link rel="stylesheet" href="styles/large-11.css">
+	 <link rel="stylesheet" href="styles/main-11.css">
+	 
+	 <!--Google Fonts -->
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Tangerine:300,700 rel="stylesheet">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Charmonman">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Exo">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Indie Flower">
+     
+</head>
+
+<body>
+
+  <header>
+	<div class="logopicture">
+	<picture>
+    <img src="images/logoIcon300.jpg" alt="Logo Icon" class="center"
+		srcset= "images/logoIcon150.jpg, images/logoIcon50.jpg">
+	</picture>
+	</div>
+	
+	<div class="logoheading">
+	<h1>Daydream Weather Site</h1>
+	<h2>For the weather you actually care about!</h2>
+	
+	</div>
+	
+  </header>
+  
+ <nav>
+		 <button onclick="toggleMenu()">CLICK &#9788; ME!</button>
+    <ul id="primaryNav" class="hide">	 	
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="preston-11.html">Preston</a></li>
+    	<li><a href="sodasprings-11.html">Soda Springs</a></li>
+    	<li><a href="fishhaven-11.html">Fish Haven</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery-11.html">Gallery</a></li>
+    </ul>
+  </nav>
+    
+  <main>
+ 
+	<br>
+	<center>
+	<h4>Soda Springs</h4>
+	
+<div class="container">
+		
+			<figure class="springspic">	
+				<img src="images/SodaSpringsS.jpg" alt="Soda Springs photo Small" sizes="100w"
+				srcset= "images/SodaSpringsL.jpg 975w,images/SodaSpringsM.jpg 800w, images/SodaSpringsS.jpg 600w">
+			</figure>
+	
+	<section class="SodaSpringsWeather-Report">
+                     
+      <div class="currentSS">
+	  <h4>Weather Report for<span id="city"></span><img alt="Weather Icon" id="weatherimage"> <span id="description">  </span></h4>
+			<p>Current Temperature : <span id="current">  </span>&deg;F</p>
+			<p>Humidity : <span id="humidity">  </span></p>
+			<p>Precipitation: <span id="precipitation"></span>&nbsp;inches</p>
+            <p>Today's High: <span id="hightemp">  </span>&deg;F</p>
+            <p>Today's Low: <span id="lowtemp">  </span>&deg;F</p>
+			<p>Wind Speed: <span id="windspeed"> </span> mph</p>
+			<p>Wind Chill: <span id="windchill"> </span>&deg;F</p>
+		</div>	
+    </section>
+</div>
+
+    <h4>High Temperature Forecast</h4>
+      <div class="SodaSprings5-Day-Outlook">
+		<div>
+			<br>
+            <p><span id="forecastday1"></span>
+			<span id="icon1"></span>
+			<span id="tempforecastday1"></span><span>&deg; F</span>
+			<br>
+		</div>
+		<div>
+			<br>
+            <p><span id="forecastday2">sdfsdfsdf</span>
+			<span id="icon2"></span>
+			<span id="tempforecastday2"></span><span>&deg; F</span>
+			<br>
+			
+		</div>
+		<div>
+	
+			<br>
+			<p><span id="forecastday3"></span>
+			<span id="icon3"></span>
+			<span id="tempforecastday3"></span><span>&deg; F</span>
+			<br>
+			
+		</div>
+		<div>
+		
+            <p><span id="forecastday4"></span>
+			<span id="icon4"></span>
+			<span id="tempforecastday4"></span><span>&deg; F</span>
+			<br>
+			
+		</div>
+		<div>
+	
+			<br>
+			<p><span id="forecastday5"></span>
+            <span id="icon5"></span>
+            <span id="tempforecastday5"></span><span>&deg; F</span>
+			</div>
+			
+			</table>
+    </div>
+      
+		<article>
+			<div class"SodaSpringsArticle">
+				<h2>Don't drink this fizz!</h2>
+				<h4>by Wanda Waters</h4>
+			<div class="Geyser-Weekly-Highlights"><img src= "images/geyser.jpg" alt="Article">
+			<h6>While tourist may not flock to the small town of Soda Springs it is definitly worth the drive.  Take a detour to see the 
+			wagon wheel etched in stone.  Our geysem may not be as big as Old Faithful, but it certainly is
+			spectacular.  Take time out of your busy schedule to slow down and unwind in beautiful Soda Springs!<h6></div>
+			</div>
+		</article>	
+		<br><br>	
+  
+  </main>
+    
+	<footer>
+		<section class="contact">
+		The Weather Guru 
+		30 N 1st E
+		Preston, ID 83263
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23471.966212128864!2d-111.60632453674228!3d42.66144306907165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda+Springs%2C+ID+83276!5e0!3m2!1sen!2sus!4v1543444175401"></iframe>
+
+		</section>
+		<br>
+		<section class="footer-bar">&copy;2018 The Weather Site Project | Attributions | Kristen Parkinson | <span id="currentdate">Current Date Placeholder</span>
+		<p>Current Weather Data courtesty of: <a href="https://OpenWeatherMap.org">OpenWeatherMap.org</p>
+		</section>
+	</footer>
+  
+	<script src="scripts/currentdate.js"></script>
+		<script src="scripts/hamburger.js"></script>
+		<script src="scripts/weather-SodaSprings.js"></script>
+		<script src="scripts/forecast-SodaSprings.js"></script>
+		<script src="scripts/windchill.js"></script>
+		<script src="scripts/wayfind.js"></script>
+
+</body>
+</html>

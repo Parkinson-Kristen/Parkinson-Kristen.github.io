@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">   
+      <title>Main Page</title>
+      <meta name="description" content="The Weather Site Project">
+    
+     <link rel="stylesheet" href="styles/normalize.css">
+	 <link rel="stylesheet" href="styles/small-11.css">
+	 <link rel="stylesheet" href="styles/medium-11.css">
+     <link rel="stylesheet" href="styles/large-11.css">
+	 <link rel="stylesheet" href="styles/main-11.css">
+	 
+	 <!--Google Fonts -->
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Tangerine:300,700 rel="stylesheet">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Charmonman">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Exo">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Indie Flower">
+     
+</head>
+
+<body>
+
+  <header>
+	<div class="logopicture">
+	<picture>
+    <img src="images/logoIcon300.jpg" alt="Logo Icon" class="center"
+		srcset= "images/logoIcon150.jpg, images/logoIcon50.jpg">
+	</picture>
+	</div>
+	
+	<div class="logoheading">
+	<h1>Daydream Weather Site</h1>
+	<h2>For the weather you actually care about!</h2>
+	
+	</div>
+	
+  </header>
+  
+ <nav>
+		 <button onclick="toggleMenu()">CLICK &#9788; ME!</button>
+    <ul id="primaryNav" class="hide">	 	
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="preston-11.html">Preston</a></li>
+    	<li><a href="sodasprings-11.html">Soda Springs</a></li>
+    	<li><a href="fishhaven-11.html">Fish Haven</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery-11.html">Gallery</a></li>
+    </ul>
+  </nav>
+    
+  <main>
+ 
+	<br>
+	<center>
+	<div class="introGallery">
+		<h4>Welcome to your weekend getaway spots!</h4>
+	</div>
+	
+	<section class="introGrid"></section>
+	
+ </main> 
+  
+   <footer>
+    <section class="contact">
+      The Weather Guru 
+      30 N 1st E
+      Preston, ID 83263
+    </section>
+	<br>
+    <section class="footer-bar">&copy;2018 The Weather Site Project | Attributions | Kristen Parkinson | <span id="currentdate">Current Date Placeholder</span>
+    </section>
+  </footer>
+  
+	<script src="scripts/currentdate.js"></script>
+	<script src="scripts/hamburger.js"></script>
+	<script src="scripts/jsonTowns.js"></script>
+	<script src="scripts/wayfind.js"></script>
+	
+
+</body>
+</html>

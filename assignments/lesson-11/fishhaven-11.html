@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">   
+      <title>Fish Haven Weather</title>
+      <meta name="description" content="The Weather Site Project">
+    
+     <link rel="stylesheet" href="styles/normalize.css">
+	 <link rel="stylesheet" href="styles/small-11.css">
+	 <link rel="stylesheet" href="styles/medium-11.css">
+     <link rel="stylesheet" href="styles/large-11.css">
+	 <link rel="stylesheet" href="styles/main-11.css">
+	 
+	 <!--Google Fonts -->
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Tangerine:300,700 rel="stylesheet">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Charmonman">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Exo">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Indie Flower">
+     
+</head>
+
+<body>
+
+  <header>
+	<div class="logopicture">
+	<picture>
+    <img src="images/logoIcon300.jpg" alt="Logo Icon" class="center"
+		srcset= "images/logoIcon150.jpg, images/logoIcon50.jpg">
+	</picture>
+	</div>
+	
+	<div class="logoheading">
+	<h1>Daydream Weather Site</h1>
+	<h2>For the weather you actually care about!</h2>
+	
+	</div>
+	
+  </header>
+  
+ <nav>
+		 <button onclick="toggleMenu()">CLICK &#9788; ME!</button>
+    <ul id="primaryNav" class="hide">	 	
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="preston-11.html">Preston</a></li>
+    	<li><a href="sodasprings-11.html">Soda Springs</a></li>
+    	<li><a href="fishhaven-11.html">Fish Haven</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery-11.html">Gallery</a></li>
+    </ul>
+  </nav>
+    
+  <main>
+ 
+	<br>
+	<center>
+	<h4>Fish Haven</h4>
+<div class="container">
+		
+			<figure class="fishhavenpic">
+				<img src="images/FishHavenS.jpg" alt="Fish Haven photo Small" sizes="100w"
+				srcset= "images/FishHavenL.jpg 975w,images/FishHavenM.jpg 800w, images/FishHavenS.jpg 600w">
+			</figure>
+	
+	<section class="FishHavenWeather-Report">
+               
+      <div class="currentFH">
+	  <h4>Weather Report for<span id="city"></span><img alt="Weather Icon" id="weatherimage"> <span id="description">  </span></h4>
+			<p>Current Temperature : <span id="current">  </span>&deg;F</p>
+			<p>Humidity : <span id="humidity">  </span></p>
+			<p>Precipitation: <span id="precipitation"></span>&nbsp;inches</p>
+            <p>Today's High: <span id="hightemp">  </span>&deg;F</p>
+            <p>Today's Low: <span id="lowtemp">  </span>&deg;F</p>
+			<p>Wind Speed: <span id="windspeed"> </span> mph</p>
+			<p>Wind Chill: <span id="windchill"> </span>&deg;F</p>
+		</div>	
+    </section>
+</div>
+	
+	<h4>High Temperature Forecast</h4>
+      <div class="FishHaven5-Day-Outlook">
+		<div>
+			<br>
+            <p><span id="forecastday1"></span>
+			<span id="icon1"></span>
+			<span id="tempforecastday1"></span><span>&deg; F</span>
+			<br>
+		</div>
+		<div>
+			<br>
+            <p><span id="forecastday2">sdfsdfsdf</span>
+			<span id="icon2"></span>
+			<span id="tempforecastday2"></span><span>&deg; F</span>
+			<br>
+			
+		</div>
+		<div>
+	
+			<br>
+			<p><span id="forecastday3"></span>
+			<span id="icon3"></span>
+			<span id="tempforecastday3"></span><span>&deg; F</span>
+			<br>
+			
+		</div>
+		<div>
+		
+            <p><span id="forecastday4"></span>
+			<span id="icon4"></span>
+			<span id="tempforecastday4"></span><span>&deg; F</span>
+			<br>
+			
+		</div>
+		<div>
+	
+			<br>
+			<p><span id="forecastday5"></span>
+            <span id="icon5"></span>
+            <span id="tempforecastday5"></span><span>&deg; F</span>
+			</div>
+			
+			</table>
+    </div>
+      
+			<article>
+				<div class=FishHavenArticle">
+					<h2>Fisherman's Delight</h2>
+					<h2>by Tom Trout</h2>
+				<div class="FishHavenWeekly-Highlights"><img src= "images/dock.jpeg" alt="Article">
+					<h6>If you are looking for a perfect fishing getaway to commune with nature, then 
+					Fish Haven is the place for you.  From the fresh water trout to the myriad of scenic
+					hikes thoughout the hill, there is plenty to keep a busy family busy or just settle
+					back for a nice relaxing weekend. If you are looking for a scenic drive, be sure to
+					check out Bear Lake.  Easy access to National Forests as well.  See you soon!  We'll 
+					save you a fish.<h6></div>
+				</div>
+			</article>	
+		<br><br>	
+  
+		</main>
+    
+		<footer>
+			<section class="contact">
+				The Weather Guru 
+				30 N 1st E
+				Preston, ID 83263                       
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5926.478648905036!2d-111.40050140094453!3d42.03804813475367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2sFish+Haven%2C+ID+83287!5e0!3m2!1sen!2sus!4v1543444310128"></iframe>    </iframe>
+
+			</section>
+				<br>
+				<section class="footer-bar">&copy;2018 The Weather Site Project | Attributions | Kristen Parkinson | <span id="currentdate">Current Date Placeholder</span>
+				<p>Current Weather Data courtesty of: <a href="https://OpenWeatherMap.org">OpenWeatherMap.org</p>
+			</section>
+		</footer>
+  
+		<script src="scripts/currentdate.js"></script>
+		<script src="scripts/hamburger.js"></script>
+		<script src="scripts/weather-FishHaven.js"></script>
+		<script src="scripts/forecast-FishHaven.js"></script>
+		<script src="scripts/windchill.js"></script>
+		<script src="scripts/wayfind.js"></script>
+
+	</body>
+</html>

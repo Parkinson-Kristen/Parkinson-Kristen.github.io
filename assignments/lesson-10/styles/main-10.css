@@ -176,23 +176,7 @@ main {
 	#305b9d, #007faf, #009ea4, #5ab78c, #b2c97f);
 }
 
-main figure.prestonpic img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-	margin-bottom: 1em;
-	border-radius: 5%;
-}
 
-main figure.prestonpic {
-	display: block;
-	margin: auto auto;
-	/*margin-top:1em;
-	margin-bottom:1em;
-	margin-left: 0;
-	margin-right: 0;*/
-}
 /*
 main figure.partlysunnypic {
     width: 50%;
@@ -234,6 +218,7 @@ section.Weather-Report {
 	
 	
 }
+/* Town of Preston*/
 
 .prestonOverlay {
 	position: relative;
@@ -250,6 +235,24 @@ section.Weather-Report {
     z-index: 2;*/
 }
 
+main figure.prestonpic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+	margin-bottom: 1em;
+	border-radius: 5%;
+}
+
+main figure.prestonpic {
+	display: block;
+	margin: auto auto;
+	/*margin-top:1em;
+	margin-bottom:1em;
+	margin-left: 0;
+	margin-right: 0;*/
+}
+
 /*.textOverlay{
     position: absolute;
     top: 50%;
@@ -259,6 +262,7 @@ section.Weather-Report {
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
 }*/
+
 
 .current img{
 	display: block;
@@ -309,6 +313,199 @@ div.Weekly-Highlights img {
 	border-radius: 5%;
 	
 }
+
+/*Town of Fish Haven*/
+
+.prestonOverlay {
+	position: relative;
+	text-align: center;
+	color: 0b5950;
+	display: block;
+    /*width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;*/
+}
+
+main figure.prestonpic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+	margin-bottom: 1em;
+	border-radius: 5%;
+}
+
+main figure.prestonpic {
+	display: block;
+	margin: auto auto;
+	/*margin-top:1em;
+	margin-bottom:1em;
+	margin-left: 0;
+	margin-right: 0;*/
+}
+
+/*.textOverlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}*/
+
+
+.current img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+	height: 30%;
+	margin-bottom: 1em;
+	border-radius: 5%;
+}
+
+section.5-Day-Outlook {
+	margin: 0;
+	box-sizing: border-box;
+	border-style: double;
+	width: auto;
+	align-items: center; 
+	padding: 10px;
+	border: 4px solid #0B3A59;
+}
+
+article {
+    width: auto;
+    overflow: hidden;
+    border-style: double;
+	border-width: thick;
+    margin-top: 1.0rem;
+	border: 4px solid #0B3A59;
+    padding: 10px;
+    border-radius: 50px 20px;
+}
+
+div.Weekly-Highlights {
+    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    float: left;
+    width: auto;
+    /* fill the page in the small/phone view */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+	
+}
+
+div.Weekly-Highlights img {
+    float: right;
+    width: 35%;
+    margin-top: -1.0rem;
+    margin-bottom: 1.0rem;
+	border-radius: 5%;
+	
+}
+
+/*Town of Soda Springs*/
+
+.springsOverlay {
+	position: relative;
+	text-align: center;
+	color: 0b5950;
+	display: block;
+    /*width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;*/
+}
+
+main figure.springspic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+	margin-bottom: 1em;
+	border-radius: 5%;
+}
+
+main figure.springspic {
+	display: block;
+	margin: auto auto;
+	/*margin-top:1em;
+	margin-bottom:1em;
+	margin-left: 0;
+	margin-right: 0;*/
+}
+
+/*.textOverlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}*/
+
+
+.current img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+	height: 30%;
+	margin-bottom: 1em;
+	border-radius: 5%;
+}
+
+section.5-Day-Outlook {
+	margin: 0;
+	box-sizing: border-box;
+	border-style: double;
+	width: auto;
+	align-items: center; 
+	padding: 10px;
+	border: 4px solid #0B3A59;
+}
+
+article {
+    width: auto;
+    overflow: hidden;
+    border-style: double;
+	border-width: thick;
+    margin-top: 1.0rem;
+	border: 4px solid #0B3A59;
+    padding: 10px;
+    border-radius: 50px 20px;
+}
+
+div.Geyser-Weekly-Highlights {
+    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    float: left;
+    width: auto;
+    /* fill the page in the small/phone view */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+	
+}
+
+div.Geyser-Weekly-Highlights img {
+    float: right;
+    width: 35%;
+    margin-top: -1.0rem;
+    margin-bottom: 1.0rem;
+	border-radius: 5%;
+	
+}
+
 
 /*  Picture Gallery Grid  */
 

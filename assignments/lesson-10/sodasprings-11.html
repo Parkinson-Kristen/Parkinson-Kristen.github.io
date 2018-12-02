@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">   
+      <title>Soda Springs Weather</title>
+      <meta name="description" content="The Weather Site Project">
+    
+     <link rel="stylesheet" href="styles/normalize.css">
+	 <link rel="stylesheet" href="styles/small-11.css">
+	 <link rel="stylesheet" href="styles/medium-11.css">
+     <link rel="stylesheet" href="styles/large-11.css">
+	 <link rel="stylesheet" href="styles/main-11.css">
+	 
+	 <!--Google Fonts -->
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Tangerine:300,700 rel="stylesheet">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Charmonman">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Exo">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+     
+</head>
+
+<body>
+
+  <header>
+	<div class="logopicture">
+	<picture>
+    <img src="images/part-cloudy.png" alt="part-cloudy" class="center">
+	</picture>
+	</div>
+	
+	<div class="logoheading">
+	<h1>Daydream Weather Site</h1>
+	<h2>For the weather you actually care about!</h2>
+	
+	</div>
+	
+  </header>
+  
+ <nav>
+	
+    <ul class="Locations">
+		 <button onclick="toggleMenu()">&#9788;</button>
+    <!--<ul class="hide mainmenu" id="primaryNav">-->
+    	<li class="active"><a href="index.html">Home</a></li>
+    	<li><a href="preston-10.html">Preston</a></li>
+    	<li><a href="sodasprings-11.html">Soda Springs</a></li>
+    	<li><a href="fishhaven-11.html">Fish Haven</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery-10.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+ 
+	<br><br>
+	<center>
+	<h2></h2>
+	
+<div class="springsOverlay">	
+	<figure class="springspic">
+  <img src="images/SodaSpringsS.jpg" alt="Soda Springs photo Small" sizes="100w"
+		srcset= "images/SodaSpringsL.jpg 975w,images/SodaSpringsM.jpg 800w, images/SodaSpringsS.jpg 600w">
+	</figure>
+	
+	<section class="Weather-Report">
+            <h1>Weather Report for <span id="city">  </span></h1>   
+      <div class="current">
+			<p><img alt="Weather Icon" id="weatherimage"> <span id="description">  </span></p>  
+      </div>
+	  
+      <div class="highlow">
+			<p>Current Temperature : <span id="current">  </span>&deg;F</p>
+			<p>Humidity : <span id="humidity">  </span></p>
+			<p>Precipitation: <span id="precipitation"></span>&nbsp;inches</p>
+            <p>Today's High: <span id="hightemp">  </span>&deg;F</p>
+            <p>Today's Low: <span id="lowtemp">  </span>&deg;F</p>
+			<p>Wind Speed: <span id="windspeed"> 5</span> mph</p>
+      </div>
+      <div class="conditions">
+        
+      </div>  
+    </section>
+	
+	</div>
+
+    <section class="5-Day-Outlook">
+      <h3>High Temperature Forecast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Wed</th>
+            <th>Thur</th>
+            <th>Fri</th>
+            <th>Sat</th>
+			<th>Sun</th>
+          </tr>
+	</thead>
+        <tbody>  
+          <tr>
+            <td>Forecast</td>
+			<td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+          </tr>
+		</tbody>
+      </table>
+    </section>
+    
+    <!--Under construction - working on true 5 day forcast using forcast info from OpenWeatherMap
+	<section class="5-Day-Outlook">
+      <h3>5 Day Outlook</h3>
+      <table>
+        <thead>
+          <tr>
+            <th><span id="NextDay_1">  </span></th>
+            <th><span id="NextDay_2">  </span></th>
+            <th><span id="NextDay_3">  </span></th>
+            <th><span id="NextDay_4">  </span></th>
+            <th><span id="NextDay_5">  </span></th>
+          </tr>
+	</thead>
+        <tbody>  
+          <tr>
+            <td><span id="NextDayTemp_1">  </span></td>
+            <td><span id="NextDayTemp_2">  </span></td>
+            <td><span id="NextDayTemp_3">  </span></td>
+            <td><span id="NextDayTemp_4">  </span></td>
+            <td><span id="NextDayTemp_5">  </span></td>
+          </tr>
+		</tbody>
+      </table>
+    </section>-->
+      
+    <article>
+      <h2>Fall Foliage Festival</h2>
+		<h4>by Leslie Leaf</h4>
+      
+      <div class="Geyser-Weekly-Highlights"><img src= "images/SSgeyser.jpg" alt="Article">
+       While tourist may not flock to Soda Springs, it is definitly worth the drive.  Take a detour to see the 
+	   wagon wheel etched in stone.  Our geysem may not be as big as Old Faithful, but it certainly is
+	   spectacular.  Take time out of your busy schedule to slow down and unwind in beautiful Soda Springs!</div>
+    </article>	
+<br><br>	
+  
+  </main>
+    
+  <footer>
+    <section class="contact">
+      The Weather Guru 
+      30 N 1st E
+      Preston, ID 83263
+    </section>
+	<br>
+    <section class="footer-bar">&copy;2018 The Weather Site Project | Attributions | Kristen Parkinson | <span id="currentdate">Current Date Placeholder</span>
+	<p>Current Weather Data courtesty of: <a href="https://OpenWeatherMap.org">OpenWeatherMap.org</p>
+    </section>
+  </footer>
+  
+	<script src="scripts/currentdate.js"></script>
+	<script src="scripts/hamburger.js"></script>
+	<!--<script src="scripts/windchill.js"></script>-->
+	<script src="scripts/weather.js"></script>
+
+</body>
+</html>

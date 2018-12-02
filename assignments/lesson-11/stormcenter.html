@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">   
+      <title>Stormcenter</title>
+      <meta name="description" content="The Weather Site Project">
+    
+     <link rel="stylesheet" href="styles/normalize.css">
+	 <link rel="stylesheet" href="styles/small-11.css">
+	 <link rel="stylesheet" href="styles/medium-11.css">
+     <link rel="stylesheet" href="styles/large-11.css">
+	 <link rel="stylesheet" href="styles/main-11.css">
+	 
+	 <!--Google Fonts -->
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Tangerine:300,700 rel="stylesheet">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Charmonman">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Exo">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Indie Flower">
+     
+</head>
+
+<body>
+
+  <header>
+	<div class="logopicture">
+	<picture>
+    <img src="images/logoIcon300.jpg" alt="Logo Icon" class="center"
+		srcset= "images/logoIcon150.jpg, images/logoIcon50.jpg">
+	</picture>
+	</div>
+	
+	<div class="logoheading">
+	<h1>Daydream Weather Site</h1>
+	<h2>For the weather you actually care about!</h2>
+	
+	</div>
+	
+  </header>
+  
+ <nav>
+		 <button onclick="toggleMenu()">CLICK &#9788; ME!</button>
+    <ul id="primaryNav" class="hide">	 	
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="preston-11.html">Preston</a></li>
+    	<li><a href="sodasprings-11.html">Soda Springs</a></li>
+    	<li><a href="fishhaven-11.html">Fish Haven</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery-11.html">Gallery</a></li>
+    </ul>
+  </nav>
+    
+  <main>
+ 
+	<br>
+	<center>
+	<h4>Storm Center</h4>
+	<picture>
+	<img src="images/stormcenter.jpg" alt="Stormcenter" class="center">
+	</picture><br><br>
+  
+<body>
+
+  <main class="center" >
+     <form method="get" action="thanks.html" >
+         <fieldset>
+            <legend> Contact Information </legend><br>
+			
+			<center>
+             
+             <label><span>Full Name:</span> <input type="text" name="fname" placeholder="First and Last name" pattern="[A-z\s]{5,}" required autocomplete="off"> </label>
+             
+              <br><br><label><span>Email:</span><input type="email" name="email" placeholder="ex:user@byu.edu" autocomplete="off"></label>
+             
+               <br><br><label><span>Phone:</span><input type="tel" name="phone" placeholder="###-###-####" required autocomplete="off"></label>
+             
+                <br><br><label><span>Zip code:</span> <input type="number" name="zipcode" placeholder="12345" pattern="{\d{5}([\-]d{4})?)" required autocomplete="off"></label>
+          </fieldset><br>
+         
+         <fieldset>
+            <legend>Storm Report</legend>
+             
+				<center>
+                <label><span>Date of Storm:</span><input type="date" name="date"></label> 
+				
+				<br><br><label><span>Approximate time of storm:</span><input type="time" name="time"></label>
+                
+                <br><br><label><span>Storm Type:</span><input type="text"  name="stormtype" list="storms">
+                    <datalist id="storms">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+					<option value="Heavy Snowfall"></option>
+					<option value="Freazing Fog"></option>
+                    </datalist>
+             </label>
+                <br><br><label><span>Storm Severity: From 1 to 10: </span>
+		              <input type="range" id="rating" value="5" min="1" max="10" step="1" onchange="stormrating(this.value)">
+		              <span id="ratingvalue">5</span>
+                </label>
+            
+              <br><br><label><span>Storm Region:</span>
+                  <select name="stormregion">
+                  <option value="select" disabled selected>Select Region</option>
+                  <option value="preston">Preston</option>
+                  <option value="sodasprings">Soda Springs</option>
+                  <option value="fishhaven">Fish Haven</option>
+                  </select><br><br>
+             </label>
+        
+                 
+             <span>User In-Danger Level - Choose one:</span><br>
+               <label><input type="radio" name="dangerYes" value="yes">Yes</label>
+               <label><input type="radio" name="dangerMaybe" value="maybe">Maybe</label>
+               <label><input type="radio" name="dangerNo" value="no">No</label>
+        
+             
+           <br><br><label ><span>Additional Information or Comments</span>
+                 <textarea name="adtlinfoorcomment"></textarea>
+            </label>
+         </fieldset><br>
+         
+         
+          <input type="submit" value="Submit your report" class="submitbutton">
+		  <br>
+        
+                
+	</form>
+  </main>
+  <br>
+ <footer>
+    <section class="contact">
+      The Weather Guru
+      30 N 1st E
+      Preston, ID 83263
+    </section>
+	<br>
+    <section class="footer-bar">&copy;2018 The Weather Site Project | Attributions | Kristen Parkinson | <span id="currentdate">Current Date Placeholder</span>
+    </section>
+  </footer>
+  
+	<script src="scripts/currentdate.js"></script>
+	<script src="scripts/hamburger.js"></script>
+	<script src="scripts/stormrating.js"></script>
+	<script src="scripts/adjustRating.js"></script>
+	<script src="scripts/wayfind.js"></script>
+
+</body>
+</html>
