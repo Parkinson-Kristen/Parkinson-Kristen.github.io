@@ -1,20 +1,20 @@
-
+{
   "temples": [
     {
     "name": "Snowflake Arizona Temple",
 	"imgPath" : "https://parkinson-kristen.github.io/assignments/finalProject/images/Snowflake-temple1.jpg",
-    "address": "1875 W. Canyon Dr"
-	"Snowlake, AZ 85937-6014"
-	"United States",
+    "address": ["1875 W. Canyon Dr",
+	"Snowlake, AZ 85937-6014",
+	"United States"]
 	"telephone #": 1-928-536-6626,
 	"email": "really@youvegottobekiddingme.org",
-	"Services": "No clothing rental available",
+	"services": "No clothing rental available",
 	"No cafeteria available",
 	"No patron housing available",
 	"Distribution center nearby ",
 	"Endowment sessions available in English, Spanish and Navajo",
 	
-	"History": ["The site for the Snowflake Arizona Temple is situated on the west end of "
+	"templeHistory": ["The site for the Snowflake Arizona Temple is situated on the west end of "
 	"town on top of a bluff scattered with cedar trees that has become known as "Temple Hill." "
 	"Unlike many other recently constructed temples, the temple does not share property with a "
 	"stake center or Church meetinghouse but is adjacent to a golf course. Approximately 8 feet "
@@ -50,10 +50,10 @@
 	"If you want to love God you must love other people"" (30 September 2000, Church News)."
 	]
 	
-	"Temple Facts":[ "The Snowflake Arizona Temple was the second temple built in Arizona, following "
-	"the Mesa Arizona Temple (1927).",
+	"templeFacts":[ "The Snowflake Arizona Temple was the second temple built in Arizona, following "
+	"the Mesa Arizona Temple (1927)."
 
-	"The Snowflake Arizona Temple is a sister building to the Winter Quarters Nebraska Temple.",
+	"The Snowflake Arizona Temple is a sister building to the Winter Quarters Nebraska Temple."
 
 	"The town of Snowflake was named after its founder, William J. Flake, and the apostle with "
 	"charge over the Mormon colonization of Arizona, Erastus Snow, who visited the settlement a "
