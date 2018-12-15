@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">   
+      <title>Main Page</title>
+      <meta name="description" content="The Temple Inn & Suites">
+    
+     <link rel="stylesheet" href="styles/normalize.css">
+	 <link rel="stylesheet" href="styles/small-11.css">
+	 <link rel="stylesheet" href="styles/medium-11.css">
+     <link rel="stylesheet" href="styles/large-11.css">
+	 <link rel="stylesheet" href="styles/main-11.css">
+	 
+	 <!--Google Fonts -->
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Tangerine:300,700 rel="stylesheet">
+	<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Charmonman">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Exo">
+  
+     
+</head>
+
+<body>
+
+  <header>
+	<div class="logopicture">
+	<picture>
+    <img src="images/logoIcon300.jpg" alt="Logo Icon" class="center"
+		srcset= "images/logoIcon150.jpg, images/logoIcon50.jpg">
+	</picture>
+	</div>
+	
+	<div class="logoheading">
+	<h1>Daydream Weather Site</h1>
+	<h2>For the weather you actually care about!</h2>
+	
+	</div>
+	
+  </header>
+  
+ <nav>
+		 <button onclick="toggleMenu()">&#9788; MENU</button>
+    <ul id="primaryNav" class="hide">	 	
+    	<li><a href="landing.html">Home</a></li>
+    	<li><a href="accommodations.html">Preston</a></li>
+    	<li><a href="services.html">Soda Springs</a></li>
+    	<li><a href="contact.html">Fish Haven</a></li>
+    	<li><a href="socialevents.html">Storm Center</a></li>
+    	<li><a href="reservations.html">Gallery</a></li>
+    </ul>
+  </nav>
+    
+  <main>
+  
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="https://content.ldschurch.org/bc/content/Temples/photo-galleries/gilbert-arizona/400x640/gilbert-arizona-temple-exterior-1207314-wallpaper.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="https://content.ldschurch.org/bc/content/Temples/photo-galleries/mesa-arizona/400x250/mesa-temple-766332-wallpaper.jpgsn"></a>
+    <a class="carousel-item" href="#three!"><img src="https://content.ldschurch.org/bc/content/Temples/photo-galleries/snowflake-arizona/400x250/snowflake-temple-lds-845142-wallpaper.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="https://content.ldschurch.org/bc/content/Temples/photo-galleries/tucson-arizona/400x250/tucson-arizona-temple-exterior-1929291-wallpaper.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="https://content.ldschurch.org/bc/content/Temples/photo-galleries/portland-oregon/2018/400x640/Portland-Oregon-Temple05.jpg"></a>
+  </div>
+	<br>
+	<center>
+	<div class="introGallery">
+		<h2>Welcome to your weekend getaway spots!</h2>
+	</div>
+	
+	<section class="introGrid"></section>
+	
+ </main> 
+  
+   <footer>
+    <section class="contact">
+      The Temple Inn & Suites
+	  4800 Montgomery Ln #300
+	  Bethesda, MD 20814
+	 <script
+	 src="https://maps.googleapis.com/maps/api/js?key=https://goo.gl/maps/C1Yt1rucaUH2&callback=initMap">
+	 </script>
+    </section>
+	<br>
+    <section class="footer-bar">&copy;2018 Temple Inn & Suites | Attributions | Kristen Parkinson | <span id="currentdate">Current Date Placeholder</span>
+	<p>Current Weather Data courtesty of: <a href="https://OpenWeatherMap.org">OpenWeatherMap.org</p>
+    </section>
+  </footer>
+  
+	<script src="scripts/currentdate.js"></script>
+	<script src="scripts/hamburger.js"></script>
+	<script src="scripts/jsonTowns.js"></script>
+	<script src="scripts/wayfind.js"></script>
+	
+
+</body>
+</html>

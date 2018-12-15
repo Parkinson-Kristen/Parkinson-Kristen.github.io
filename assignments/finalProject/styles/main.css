@@ -1,0 +1,535 @@
+@media only screen and (max-width: 500px) {
+
+    /* Do not use duplicated declarations that are already established in the normalize.css */
+     
+	 /*section.Weather-Summary { ______ } show the 7-day forecast with the small view and up */
+
+	nav button {
+		margin: .2rem 2%;
+		background-color: rgb(32,73,78);
+		border: none;
+		font-size: 1.6rem;
+		color: #B8860B;
+	}
+		
+	nav {	
+		background-color:rgb(32,73,78);
+		text-align: center;
+		flex-wrap: column wrap;
+	}
+
+	nav ul {
+		list-style-type: none;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		/*padding: 20px, 20px;
+		margin: 0;
+		flex: 1;
+		display: flex;
+		width: 100%;
+		background-color: #0B3A59;
+		flex-wrap: column wrap;*/
+	}
+		
+	/*nav bar - individual tabs*/	
+	nav ul li a {
+		display: block;
+		background: rgb(32,73,78);
+		color: rgb(32,73,78);
+		/*border-left: 1px solid #0B5950;*/
+		padding: 1rem;
+		text-decoration: none;
+		font-size: 1.1rem;
+		/*text-align: center;*/
+		}
+
+	/*for highlighting active box*/
+	nav ul li.active  {
+		color: rgb(32,73,78);
+		}
+
+	nav ul li.active a {
+		background-color: rgb(32,73,78);
+		}
+
+	/*nav bar hover feature*/
+	nav ul li a:hover {
+		flex: 1.1;
+		background-color: rgb(32,73,78);
+		color: rgb(32,73,78);
+		}	
+		
+	nav ul.hide {display: none;}
+
+	/*nav li:first-child a {border-left: none;}*/
+	
+
+
+  }html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+  margin: 0.5rem;
+  font-size: 18px;
+  font-family: 'Old Standard TT', serif;
+  color: #B8860B;
+
+}
+
+
+h1 {
+    Font-size: 24px;
+	text-align: left;
+	font-family: 'Satisty', cursive;
+}
+
+h2 {
+	Font-size: 16px;
+	font-family: 'Cinsel', serif;
+	color: black;
+}
+
+h3 {
+	Font-size: 16px;
+	font-family: 'Old Standard TT', serif;
+	}
+
+h4 {
+	text-align: center;
+	Font-size: 22px;
+	font-weight: bold;
+	line-height: 35%;
+	font-family: 'Cormorant Garamond', serif;
+	color: #B8860B;
+	font-style: regular;
+}
+
+h5 {
+	margin: 0rem;
+	font-size: 18px;
+	font-family: 'Cormorant Garamond', serif;
+	color: #B8860B
+	font-style: oblique;
+	
+}
+
+h6 {
+	margin: 1rem;
+	text-align: justify;
+	font-size: 24px;
+	font-family: 'Indie Flower', cursive;
+	color: #B8860B; 'Cormorant Garamond', serif;
+	font-style: regular;
+	
+}
+
+
+
+header {
+    padding: .20rem .5%;
+    font-family: 'Satisfy', cursive;
+	justify-content: left;
+	align-items: left;
+}
+
+
+header h1 {
+	margin: 0;
+	display: flex;
+	display-grid: flex;
+	justify-content: center;
+	align-items: center;
+	color: ;
+}
+header h2 {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-weight: normal;
+}
+	
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+	
+header div.logoheading img {
+	float: center;
+    width: auto;
+	padding: 10px 5%;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+/*
+div.floatingimage img{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}*/
+
+div.logoheading {
+    float: center;
+	display: center;
+	width:100%;
+	padding: 15px 5%;
+	color: #B8860B;
+    background-color: rgb(32,73,78);
+	background-image: ;
+    flex-flow: column nowrap;
+    justify-content: center;
+	
+}
+/* rounds corners around round picture*/
+.roundrect{
+	border-radius: 53px;
+}
+
+
+
+
+/*Home*/
+
+main {
+    float: left;
+	padding: 0 2%;
+    min-height: 10rem;
+	font-size: 24px;
+	background-image: hotel-lobby.jpeg;
+}
+
+
+/*Main Functions*/
+div.main-container {
+	position: relative;
+}
+
+/*(figure.prestonpic img {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+	margin-bottom: .5em;
+	border-radius: 5%;
+}*/
+
+section.services2 {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	bottom: 5%
+}
+
+
+.research {
+	display: block;
+	flex-shrink: 3;
+	/*transform: translate(-50%, -50%);*/
+	margin: 0;
+	box-sizing: border-box;
+	border-style: double;
+	width: flex;
+	margin: 1rem;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 100%;
+	font-family: ;
+	color: #B8860B;
+	font-style: regular;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid #0B3A59;
+    padding: 2px;
+    border-radius: 50px 20px;
+	background-image: rgb(32,73,78);
+	opacity: .95;
+}
+
+
+
+
+
+/*.textOverlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}*/
+
+
+.currentP img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+	height: 20%;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	border-radius: .5%;
+}
+
+.Preston5-Day-Outlook {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	margin-left: 2px;
+    margin-right: 2px;
+	
+	/*transform: translate(-50%, -50%);*/
+	/*z-index: 1;
+	margin: 0;
+	box-sizing: border-box;
+	border-style: double;
+	width: flex;
+	align-items: center; 
+	align-items: center;
+	border: 3px solid #0B3A59;
+    padding: 2px;
+    border-radius: 50px 20px;
+	background-image: linear-gradient(to bottom,
+	#009ea4, #5ab78c, #b2c97f);
+	opacity: .75;*/
+	
+}
+
+.Preston5-Day-Outlook div {
+	box-sizing: border-box;
+	border-style: double;
+	width: auto;
+	align-items: center; 
+	border: 2px solid #0B3A59;
+	display: flex;
+	justify-content: center;
+    padding: 2px;
+    border-radius: 20px 10px;
+	background-image: linear-gradient(to bottom,
+	#009ea4, #5ab78c, #b2c97f);
+	opacity: .75;
+}
+
+.Preston5-Day-Outlook img {
+	display: block;
+	align-items: center;  
+    margin-left: .5em;
+    margin-right: .5em;
+    width: 80%;
+	height: 80%;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border-radius: .5%;
+}
+
+
+article {
+    width: auto;
+    overflow: hidden;
+    border-style: double;
+	border-width: thick;
+    margin-top: 1.0rem;
+	border: 4px solid #0B3A59;
+    padding: 10px;
+    border-radius: 50px 20px;
+}
+
+div.Weekly-Highlights {
+    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    float: left;
+    width: auto;
+    /* fill the page in the small/phone view */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+	
+}
+
+div.Weekly-Highlights img {
+    float: right;
+    width: 35%;
+    margin-top: -1.0rem;
+    margin-bottom: 1.0rem;
+	border-radius: 5%;
+	
+}
+
+/*Temples(index)*/
+
+
+   .templeGrid {
+    padding: 3rem 2%;
+    display: grid;
+	grid-template-columns: flex;
+    }
+	
+	.templeGallery h1  {
+		font-family: 'Tangerine', cursive; 
+        color: #D5F9F6;
+        margin: 1em;
+        text-align: center;
+}	
+
+    section>article {
+		background-color: #139E90;
+        color:#D5F9F6;
+        border: 1px solid #0B3A59;
+		box-sizing: border-box;
+		border-style: double;
+		justify-content: center;
+		align-items: center;
+        border-radius: 10px 33px;
+        padding: 0 10px 0 10px;
+        margin: 2em 1em; 
+		text-align: center;
+    }
+	
+	section img {
+		width: 100%;
+	}
+	
+    .introGrid h2 {
+        font-family: 'Abril+Fatface', cursive; 
+        color: #D5F9F6;
+        margin: 1em;
+        text-align: center;
+    }
+	
+     .introGrid h3 {
+        font-family: 'Tangerine', serif;
+		Font-size: 36px;
+        color: #0B3A59;
+        margin: 0.7em;
+         text-align: center;
+    }
+    .introGrid p {
+         font-family: 'Abril+Fatface', cursive;
+        margin: 0.2em;
+    }
+    .introGrid ul {
+         font-family: 'Exo', cursive;
+        line-height: 1.9em;
+    }
+
+
+/*Services & Events*/
+
+	
+	
+/*Reservations*/
+
+.inquirycenter {
+}
+
+
+
+input[type=radio] {padding: .4rem;}
+
+fieldset { background-color:transparent;}
+
+input[type=radio] { color: blue; }
+
+input[type=radio]:hover { background-color: blue; color: #fff; }
+
+input:valid   {	background-color: ##f4c03e;  color: ##f4c03e;}
+
+input:invalid { background-color: ##f4c03e; color: rgb(32,73,78);}
+
+
+/*Contact Us*/
+
+
+/*Gallery Images*/
+
+div.pictureGallery {
+    padding: 1rem 2%;
+    display: grid;
+	grid-template-columns: flex;
+}
+
+div.pictureGallery figure {
+    margin: 1rem;
+    border: 1.5px solid #0b5951;
+}
+
+div.pictureGallery figure img {
+    width: 100%;
+}
+
+div.pictureGallery figure figcaption {
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+
+
+
+
+/* Page Footer */
+
+footer {
+	margin: 0rem 0 0 0rem;
+	background-color: #FFF8DC;
+	background-image: 
+	color: white;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+section.contact {
+	text-align: center;
+	overflow-wrap: normal;
+	overflow-wrap: break-word;
+    width: 100%;
+    height: auto;
+}
+
+section.contact img {
+	display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 2.5em 0 auto 0;
+}
+
+
+/* Page Footer Action Bar */
+
+.book-now {
+	margin: 0rem 0 0 0rem;
+	background-color: rgb(32,73,78);
+	color: #B8860B;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+section.contact {
+	text-align: center;
+	overflow-wrap: normal;
+	overflow-wrap: break-word;
+    width: 100%;
+    height: auto;
+}
+
+section.contact img {
+	display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 2.5em 0 auto 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

@@ -1,0 +1,78 @@
+@media only screen and (max-width: 500px) {
+
+    /* Do not use duplicated declarations that are already established in the normalize.css */
+     
+	 /*section.Weather-Summary { ______ } show the 7-day forecast with the small view and up */
+
+	nav button {
+		margin: .2rem 2%;
+		background-color: transparent;
+		border: none;
+		font-size: 1.6rem;
+		color: #yellow;
+	}
+		
+	nav {	
+		background-color:#0B5951;
+		text-align: center;
+		flex-wrap: column wrap;
+	}
+
+	nav ul {
+		list-style-type: none;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		/*padding: 20px, 20px;
+		margin: 0;
+		flex: 1;
+		display: flex;
+		width: 100%;
+		background-color: #0B3A59;
+		flex-wrap: column wrap;*/
+	}
+		
+	/*nav bar - individual tabs*/	
+	nav ul li a {
+		display: block;
+		background: #0B3A59;
+		color: #D5F9F6;
+		/*border-left: 1px solid #0B5950;*/
+		padding: 1rem;
+		text-decoration: none;
+		font-size: 1.1rem;
+		/*text-align: center;*/
+		}
+
+	/*for highlighting active box*/
+	nav ul li.active  {
+		color: #D5F9F6;
+		}
+
+	nav ul li.active a {
+		background-color: #0B3A59;
+		}
+
+	/*nav bar hover feature*/
+	nav ul li a:hover {
+		flex: 1.1;
+		background-color: #14A796;
+		color: #0B3A59;
+		}	
+		
+	nav ul.hide {display: none;}
+
+	/*nav li:first-child a {border-left: none;}*/
+	
+/* Stormcenter */
+
+.reportingcenter {
+	padding: 1rem 2%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		
+}
+
+  }
+  
+  

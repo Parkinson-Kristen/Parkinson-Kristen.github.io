@@ -1,0 +1,102 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+ 
+ /*Large View navigation display */
+ 
+	nav button {display: none;}
+		
+nav {
+    display: inline-flex;
+	justify-content: center;
+	background: rgb(32,73,78);
+	width: 100%;
+    margin: 0;
+    padding: .5em;	
+}
+
+nav ul {
+    display: inherit;
+	justify-content: center;
+	align-self: center;
+	margin: 0;
+}
+	
+nav ul li{
+	padding: 0.35em;
+	list-style-type: none;
+}
+	
+/*nav bar - individual tabs*/	
+nav ul li a {
+    color: #D5F9F6;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+	text-decoration: none;
+    }
+
+/*for highlighting active box*/
+nav ul li.active  {
+    color: #D5F9F6;
+    }
+
+nav ul li.active a {
+    background-color: #0B3A59;
+    }
+
+/*nav bar hover feature*/
+nav ul li a:hover {
+	flex: 1.1;
+    background-color: #14A796;
+    color: #0B3A59;
+    }	
+
+	
+/*  Picture Gallery Grid displays 3 across and shodow box for large format only */
+	div.pictureGallery {
+		padding: 1rem 2%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		/*grid-template-rows: 1fr 1fr 1fr;*/
+		grid-column-gap: 5px;
+		grid-row-gap: 5px;
+}
+	div.pictureGallery figure:hover {
+		box-shadow: 3px 15px 10px #B8860B;
+	}
+	
+/* Home Page - Town Intro pics for large format */
+
+	.introGrid {
+		padding: 1rem 2%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		/*grid-template-rows: 1fr 1fr 1fr;*/
+		grid-column-gap: 5px;
+		grid-row-gap: 5px;
+}
+
+/* Home Page - Town Intro pics for large format */
+
+	.prestonAPI {
+		padding: 1rem 2%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		/*grid-template-rows: 1fr 1fr 1fr;*/
+		grid-column-gap: 5px;
+		grid-row-gap: 5px;
+}
+
+	.prestonOverlay {
+		padding: 1rem 2%;
+	}
+	
+/* Stormcenter */
+
+.inquirycenter {
+	padding: 1rem 2%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		
+}
+}

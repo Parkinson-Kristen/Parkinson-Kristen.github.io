@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">   
+      <title>Services</title>
+      <meta name="Services offered by Temple Inn & Suites" content="Babysitting, full-time missionary suites, catering, event planning">
+    
+     <link rel="stylesheet" href="styles/normalize.css">
+	 <link rel="stylesheet" href="styles/medium.css">
+     <link rel="stylesheet" href="styles/large.css">
+	 <link rel="stylesheet" href="styles/main.css">
+	 
+	 <!--Google Fonts -->
+	<link rel="stylesheet"
+		<link href="https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|Old+Standard+TT|Satisfy" rel="stylesheet"> 
+	
+ 
+     
+</head>
+
+<body>
+
+  <header>
+	<!--<div class="logo">
+	<picture>
+    <img src="images/logoMain.jpg" alt="Logo Icon" class="left"
+		srcset= "images/logoMain100.jpg, images/logoMain50.jpg">
+	</picture>
+	</div>-->
+	<nav>
+	<div class="logo">
+	<picture>
+    <img src="images/logoMainTransparent.jpg" alt="Logo Icon" class="left"
+		srcset= "images/logoMainTransparent150.jpg, images/logoMainTransparent100.jpg">
+	</picture>
+	</div>
+		 <button onclick="toggleMenu()">&#9776</button>
+    <ul id="primaryNav" class="hide">	 	
+    	<li><a href="landing.html">Home</a></li>
+    	<li><a href="temple.html">Temples</a></li>
+    	<li><a href="reservations.html">Reservations</a></li>
+    	<li><a href="services.html">Services & Events</a></li>
+    	<li><a href="contact-page.html">Contact us</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+	
+	<div class="logoheading">
+	<h2>a place to rest with</h2>
+	<h1>A TOUCH OF HEAVEN</h1>
+	
+	</div>
+	
+  </header>
+  
+ 
+    
+  <main><center>
+ 
+	<br>
+	<center>
+	<h1>Select Dates</h1></center>
+  
+<body>
+
+  <div class="inquirycenter" >
+     <form method="get" action="thanks.html" >
+         <fieldset>
+            <legend> Reservation Dates: </legend><br>
+			
+			<center>
+                <label><span>Location:</span>
+                  <select name="Select">
+                  <option value="select" disabled selected>Select</option>
+                  <option value="Snowflake">Snowflake Arizona Temple</option>
+                  <option value="Gilbert">Gilbert Arizona Temple</option>
+                  <option value="Tucson">Tucson Arizona Temple</option>
+				  <option value="Portland">Portland Oregon Temple</option>
+                  </select><br><br>
+             </label>
+				<label><span>Arrival:</span><input type="date" name="date"></label> 
+				<label><span>Departure:</span><input type="date" name="date"></label>
+				<br><br>
+				
+				<iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=kparkinson%40ttsd.k12.or.us&amp;color=%231B887A&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+				
+				<br>
+				<label><span>Number of Rooms:</span><input type="number" name="number"></label><br><br>
+				
+				<label><span>Room Type:</span>
+                  <select name="Select">
+                  <option value="select" disabled selected>Select</option>
+                  <option value="Double">Double</option>
+                  <option value="Single">Single</option>
+                  <option value="Sr. Missionary Suite">Senior Missionary Suite</option>
+                  </select><br><br>
+             </label>
+			 
+			 </center>
+			
+			<center>
+             
+             <label><span>Full Name:</span> <input type="text" name="fname" placeholder="First and Last name" pattern="[A-z\s]{5,}" required autocomplete="off"> </label>
+             
+              <br><br><label><span>Email:</span><input type="email" name="email" placeholder="ex:user@byu.edu" autocomplete="off"></label>
+             
+               <br><br><label><span>Phone:</span><input type="tel" name="phone" placeholder="###-###-####" required autocomplete="off"></label>
+             
+                <br><br><label><span>Zip code:</span> <input type="number" name="zipcode" placeholder="12345" pattern="{\d{5}([\-]d{4})?)" required autocomplete="off"></label>
+          </fieldset><br>
+         
+         <fieldset>
+            <legend>Storm Report</legend>
+             
+				<center>
+                <label><span>Additional Services Requested:</span><input type="date" name="date"></label> 
+				
+				<br><br><label><span>Time of service requested:</span><input type="time" name="time"></label>
+                
+                <br><br><label><span>Services Requested:</span><input type="text"  name="services" list="services">
+                    <datalist id="services">
+                    <option value="Child Care"></option>
+                    <option value="Research Center"></option>
+                    <option value="Event Planning"></option>
+                    <option value="Youth Group"></option>
+                    <option value="Weddings"></option>
+					<option value="Sealings"></option>
+					<option value="Receptions"></option>
+                    </datalist>
+             </label>
+        
+                 
+             <span>Prefered Choice of Contact - Choose one:</span><br>
+               <label><input type="radio" name="email" value="email">email</label>
+               <label><input type="radio" name="text" value="text">text</label>
+               <label><input type="radio" name="Phone call" value="Phone Call">Phone Call</label>
+        
+             
+           <br><br><label ><span>Special Accommodations or Comments</span>
+                 <textarea name="adtlinfoorcomment"></textarea>
+            </label>
+         </fieldset><br>
+         
+         
+          <input type="submit" value="Submit your report" class="submitbutton">
+		  <br>
+        
+                
+	</form>
+	</div>
+	</center>
+	
+ </main>
+    
+  <footer>
+	<div class="logo">
+		<picture>
+			<img src="images/LogoTransp.jpg" alt="Logo Icon" class="left"
+			srcset= "images/LogoTransp150.jpg, images/LogoTransp100.jpg">
+		</picture>
+	</div>
+	
+    <section class="contact">
+      Temple Inn & Suites Headquarters
+      4800 Montgomery Ln Ste.#300
+      Bethesda, MD 20814
+	  info@templeinn&suites.com
+	  
+	  <b>Reservations:</b> 1.800.555.5555
+    </section>
+	<br>
+    <section class="footer-bar">&copy;2018 BYU-I CIT230: Final Project | Kristen Parkinson | <span id="currentdate">Current Date Placeholder</span>
+    </section>
+	<section class="Attributaions">
+	</section>
+  </footer>
+    
+	<script src="scripts/currentdate.js"></script>
+	<script src="scripts/hamburger.js"></script>
+	<script src="scripts/stormrating.js"></script>
+	<script src="scripts/adjustRating.js"></script>
+	<script src="scripts/wayfind.js"></script>
+
+</body>
+</html>
