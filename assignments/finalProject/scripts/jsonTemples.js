@@ -4,8 +4,8 @@ var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
     request.send();
-        
-    request.onload = function() {
+    
+	request.onload = function() {
     var templeInfo = request.response;
     showTempledata(templeInfo);
         }
@@ -13,10 +13,6 @@ var request = new XMLHttpRequest();
     function showTempledata(jsonObj) {
         var dataInfo = jsonObj['temple'];
         for (var i = 0; i < dataInfo.length; i++) {
-            
-            if (i === 4) {
-                continue;
-            }
 				
             var myArticle = document.createElement('article');
             var myH2 = document.createElement('h2');
