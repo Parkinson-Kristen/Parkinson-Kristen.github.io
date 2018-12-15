@@ -7,14 +7,14 @@
 	"Snowlake, AZ 85937-6014"
 	"United States",
 	"telephone #": 1-928-536-6626,
-	"email":   ,
-	"Services": "No clothing rental available"
-	"No cafeteria available"
-	"No patron housing available"
-	"Distribution center nearby "
-	"Endowment sessions available in English, Spanish and Navajo"
-	[
-	"History": "The site for the Snowflake Arizona Temple is situated on the west end of "
+	"email": "really@youvegottobekiddingme.org",
+	"Services": "No clothing rental available",
+	"No cafeteria available",
+	"No patron housing available",
+	"Distribution center nearby ",
+	"Endowment sessions available in English, Spanish and Navajo",
+	
+	"History": ["The site for the Snowflake Arizona Temple is situated on the west end of "
 	"town on top of a bluff scattered with cedar trees that has become known as "Temple Hill." "
 	"Unlike many other recently constructed temples, the temple does not share property with a "
 	"stake center or Church meetinghouse but is adjacent to a golf course. Approximately 8 feet "
@@ -47,17 +47,17 @@
 	"dissolve any feelings that drew them apart and to gather in the temple where no differences "
 	"exist. President Norris Baldwin of the Taylor Arizona Stake exhorted members toward worthiness "
 	"to attend the temple. The gospel of Jesus Christ, he said, leads to brotherhood and sisterhood. "
-	"If you want to love God you must love other people"" (30 September 2000, Church News).",
+	"If you want to love God you must love other people"" (30 September 2000, Church News)."
 	]
 	
 	"Temple Facts":[ "The Snowflake Arizona Temple was the second temple built in Arizona, following "
-	"the Mesa Arizona Temple (1927)."
+	"the Mesa Arizona Temple (1927).",
 
-	"The Snowflake Arizona Temple is a sister building to the Winter Quarters Nebraska Temple."
+	"The Snowflake Arizona Temple is a sister building to the Winter Quarters Nebraska Temple.",
 
 	"The town of Snowflake was named after its founder, William J. Flake, and the apostle with "
 	"charge over the Mormon colonization of Arizona, Erastus Snow, who visited the settlement a "
-	"few months after Flake arrived."
+	"few months after Flake arrived.",
 
 	"In March 2017, the angel Moroni statue atop the Snowflake Arizona Temple was replaced. The "
 	"original statue faced east, looking over the rear side of the building. The new statue was "
@@ -68,21 +68,22 @@
     "groundbreaking": "September 23, 2000",
 	"dedicated": "March 3, 2002",
 	
-	"OrdinanceSchedule": "Endowments"
+	"OrdinanceSchedule": "Endowments",
 	
-	"OrdinanceSchedule": "Initiatory"
+	"OrdinanceSchedule": "Initiatory",
 	
-	"OrdinanceSchedule": "Baptism"
+	"OrdinanceSchedule": "Baptism",
 	
-	"OrdinanceSchedule": "Sealings"
+	"OrdinanceSchedule": "Sealings",
 	
     "TempleClosures": ,
+	
     "addlInformation" : [
       "To schedule an appointment for living ordinances (such as your own endowment, marriage, or sealing), please call the temple.",
       "To schedule a group visit, please call the temple.",
       "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), "
 	  "initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during "
-	  "your visit. For additional help and information, please call the temple.",
+	  "your visit. For additional help and information, please call the temple."
     ]
   },
   {

@@ -14,7 +14,7 @@ var request = new XMLHttpRequest();
         var dataInfo = jsonObj['temples'];
         for (var i = 0; i < dataInfo.length; i++) {
             
-            if (i === 3) {
+            if (i === 4) {
                 continue;
             }
 				
@@ -52,12 +52,12 @@ var request = new XMLHttpRequest();
 			myPara6.textContent = 'Year Announces: ' + dataInfo[i].yearAnnounced;
 			myPara7.textContent = 'Ground Breaking: ' + dataInfo[i].groundbreaking;
 			myPara8.textContent = 'Dedicated: ' + dataInfo[i].dedicated;
-			myPara9.textContent = 'Ordinance Schedule - Endowments: ' + dataInfo[i].endowments;
+			/*myPara9.textContent = 'Ordinance Schedule - Endowments: ' + dataInfo[i].endowments;
 			myPara10.textContent = 'Ordinance Schedule - Initiatory: ' + dataInfo[i].initiatory;
 			myPara11.textContent = 'Ordinance Schedule - Baptism: ' + dataInfo[i].baptism;
 			myPara12.textContent = 'Ordinance Schedule - Sealings: ' + dataInfo[i].sealings
 			myPara13.textContent = 'Temple Closures: ' + dataInfo[i].templeClosures;
-			myPara14.textContent = 'Additional Information: ' + dataInfo[i].addlInformation;
+			myPara14.textContent = 'Additional Information: ' + dataInfo[i].addlInformation;*/
 
             myArticle.appendChild(myH2);
 			myArticle.appendChild(myImage);
