@@ -61,6 +61,11 @@ var request = new XMLHttpRequest();
             myArticle.appendChild(myPara1);
             myArticle.appendChild(myPara2);
             myArticle.appendChild(myPara3);
+			myArticle.appendChild(myPara4);
+			myArticle.appendChild(myPara5);
+			myArticle.appendChild(myPara6);
+			myArticle.appendChild(myPara7);
+			myArticle.appendChild(myPara8);
 
             section.appendChild(myArticle);
         }        
