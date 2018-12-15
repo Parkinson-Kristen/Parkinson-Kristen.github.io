@@ -1,5 +1,5 @@
 var section = document.querySelector('section');
-var requestURL = 'https://parkinson-kristen.github.io/assignments/lesson-11/templedata.json';
+var requestURL = 'https://parkinson-kristen.github.io/assignments/finalProject/templedata.json';
 var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
@@ -11,7 +11,7 @@ var request = new XMLHttpRequest();
         }
         
     function showTempledata(jsonObj) {
-        var dataInfo = jsonObj['temples'];
+        var dataInfo = jsonObj['temple'];
         for (var i = 0; i < dataInfo.length; i++) {
             
             if (i === 4) {
@@ -47,7 +47,7 @@ var request = new XMLHttpRequest();
             myPara1.textContent = 'Phone Number: ' + dataInfo[i].telephone;
             myPara2.textContent = 'email: ' + dataInfo[i].email;
             myPara3.textContent = 'Services: ' + dataInfo[i].services;
-			myPara4.textContent = 'History: ' + dataInfo[i].history;
+			myPara4.textContent = 'History: ' + dataInfo[i].templeHistory;
 			myPara5.textContent = 'Temple Facts: ' + dataInfo[i].templeFacts;
 			myPara6.textContent = 'Year Announces: ' + dataInfo[i].yearAnnounced;
 			myPara7.textContent = 'Ground Breaking: ' + dataInfo[i].groundbreaking;
