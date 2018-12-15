@@ -7,11 +7,11 @@ var request = new XMLHttpRequest();
         
     request.onload = function() {
     var templeInfo = request.response;
-    showCitydata(templeInfo);
+    showTempledata(templeInfo);
         }
         
     function showTempledata(jsonObj) {
-        var dataInfo = jsonObj['towns'];
+        var dataInfo = jsonObj['temples'];
         for (var i = 0; i < dataInfo.length; i++) {
             
             if (i === 3) {
