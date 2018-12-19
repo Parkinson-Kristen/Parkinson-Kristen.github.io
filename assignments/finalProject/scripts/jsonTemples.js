@@ -43,7 +43,7 @@ var request = new XMLHttpRequest();
             myPara1.textContent = 'Phone Number: ' + dataInfo[i].telephone;
             myPara2.textContent = 'email: ' + dataInfo[i].email;
             myPara3.textContent = 'Services: ' + dataInfo[i].services;
-			/*myPara4.textContent = 'History: ' + dataInfo[i].templeHistory;
+			myPara4.textContent = 'History: ' + dataInfo[i].templeHistory;
 			myPara5.textContent = 'Temple Facts: ' + dataInfo[i].templeFacts;
 			myPara6.textContent = 'Year Announces: ' + dataInfo[i].yearAnnounced;
 			myPara7.textContent = 'Ground Breaking: ' + dataInfo[i].groundbreaking;
@@ -53,7 +53,7 @@ var request = new XMLHttpRequest();
 			myPara11.textContent = 'Ordinance Schedule - Baptism: ' + dataInfo[i].baptism;
 			myPara12.textContent = 'Ordinance Schedule - Sealings: ' + dataInfo[i].sealings
 			myPara13.textContent = 'Temple Closures: ' + dataInfo[i].templeClosures;
-			myPara14.textContent = 'Additional Information: ' + dataInfo[i].addlInformation;*/
+			myPara14.textContent = 'Additional Information: ' + dataInfo[i].addlInformation;
 
             myArticle.appendChild(myH2);
 			myArticle.appendChild(myImage);
@@ -66,6 +66,12 @@ var request = new XMLHttpRequest();
 			myArticle.appendChild(myPara6);
 			myArticle.appendChild(myPara7);
 			myArticle.appendChild(myPara8);
+			myArticle.appendChild(myPara9);
+			myArticle.appendChild(myPara10);
+			myArticle.appendChild(myPara11);
+			myArticle.appendChild(myPara12);
+			myArticle.appendChild(myPara13);
+			myArticle.appendChild(myPara14);
 
             section.appendChild(myArticle);
         }        
