@@ -32,6 +32,7 @@ var request = new XMLHttpRequest();
             var myPara12 = document.createElement('p');
             var myPara13 = document.createElement('p');
 			var myPara14 = document.createElement('p');
+			var myPara15 = document.createElement('p');
 
             myH2.textContent = dataInfo[i].name;
 			myImage.textContent = dataInfo[i].imgPath;
@@ -48,12 +49,13 @@ var request = new XMLHttpRequest();
 			myPara6.textContent = 'Year Announces: ' + dataInfo[i].yearAnnounced;
 			myPara7.textContent = 'Ground Breaking: ' + dataInfo[i].groundbreaking;
 			myPara8.textContent = 'Dedicated: ' + dataInfo[i].dedicated;
-			myPara9.textContent = 'Ordinance Schedule - Endowments: ' + dataInfo[i].endowments;
-			myPara10.textContent = 'Ordinance Schedule - Initiatory: ' + dataInfo[i].initiatory;
-			myPara11.textContent = 'Ordinance Schedule - Baptism: ' + dataInfo[i].baptism;
-			myPara12.textContent = 'Ordinance Schedule - Sealings: ' + dataInfo[i].sealings
-			myPara13.textContent = 'Temple Closures: ' + dataInfo[i].templeClosures;
-			myPara14.textContent = 'Additional Information: ' + dataInfo[i].addlInformation;
+			myPara9.textContent = 'Schedule for: ' + dataInfo[i].schedule;
+			myPara10.textContent = 'Ordinance Schedule - Endowments: ' + dataInfo[i].endowments;
+			myPara11.textContent = 'Ordinance Schedule - Initiatory: ' + dataInfo[i].initiatory;
+			myPara12.textContent = 'Ordinance Schedule - Baptism: ' + dataInfo[i].baptism;
+			myPara13.textContent = 'Ordinance Schedule - Sealings: ' + dataInfo[i].sealings
+			myPara14.textContent = 'Temple Closures: ' + dataInfo[i].templeClosures;
+			myPara15.textContent = 'Additional Information: ' + dataInfo[i].addlInformation;
 
             myArticle.appendChild(myH2);
 			myArticle.appendChild(myImage);
@@ -72,6 +74,7 @@ var request = new XMLHttpRequest();
 			myArticle.appendChild(myPara12);
 			myArticle.appendChild(myPara13);
 			myArticle.appendChild(myPara14);
+			myArticle.appendChild(myPara15);
 
             section.appendChild(myArticle);
         }        

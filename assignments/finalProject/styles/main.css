@@ -194,6 +194,14 @@ div.logoheading {
     text-align: center;
 }
 
+.contact-us {
+	margin: 0rem 0 0 0rem;
+	background-color: rgb(32,73,78);
+	color: #B8860B;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
 
 /*Home*/
 
@@ -292,99 +300,37 @@ section.services2 {
 }*/
 
 
-.currentP img{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-	height: 20%;
-	margin-top: .2em;
-	margin-bottom: .2em;
-	border-radius: .5%;
+section.SnowflakeWeather-Report {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	bottom: 5%
 }
 
-.Preston5-Day-Outlook {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	width: 100%;
-	height: auto;
-	margin-left: 2px;
-    margin-right: 2px;
-	
+.currentS {
+	display: block;
+	flex-shrink: 3;
 	/*transform: translate(-50%, -50%);*/
-	/*z-index: 1;
 	margin: 0;
 	box-sizing: border-box;
 	border-style: double;
 	width: flex;
-	align-items: center; 
+	margin: 1rem;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 35%;
+	font-family: 'Indie Flower', cursive;
+	color: #black;
+	font-style: regular;
+	justify-content: center;
 	align-items: center;
 	border: 3px solid #0B3A59;
     padding: 2px;
     border-radius: 50px 20px;
 	background-image: linear-gradient(to bottom,
 	#009ea4, #5ab78c, #b2c97f);
-	opacity: .75;*/
-	
-}
-
-.Preston5-Day-Outlook div {
-	box-sizing: border-box;
-	border-style: double;
-	width: auto;
-	align-items: center; 
-	border: 2px solid #0B3A59;
-	display: flex;
-	justify-content: center;
-    padding: 2px;
-    border-radius: 20px 10px;
-	background-image: linear-gradient(to bottom,
-	#009ea4, #5ab78c, #b2c97f);
 	opacity: .75;
-}
-
-.Preston5-Day-Outlook img {
-	display: block;
-	align-items: center;  
-    margin-left: .5em;
-    margin-right: .5em;
-    width: 80%;
-	height: 80%;
-	margin-top: .5em;
-	margin-bottom: .5em;
-	border-radius: .5%;
-}
-
-
-article {
-    width: auto;
-    overflow: hidden;
-    border-style: double;
-	border-width: thick;
-    margin-top: 1.0rem;
-	border: 4px solid #0B3A59;
-    padding: 10px;
-    border-radius: 50px 20px;
-}
-
-div.Weekly-Highlights {
-    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-    float: left;
-    width: auto;
-    /* fill the page in the small/phone view */
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-	
-}
-
-div.Weekly-Highlights img {
-    float: right;
-    width: 35%;
-    margin-top: -1.0rem;
-    margin-bottom: 1.0rem;
-	border-radius: 5%;
-	
 }
 
 /*TemplesCarousel*/
@@ -542,7 +488,39 @@ div.Weekly-Highlights img {
 
 /*Services & Events*/
 
+	/*.research {
+		padding: 3rem 2%;
+		display: 50%;
+		grid-template-columns: flex;
+		display: 100%; 
+		margin: 0.5rem;
+		font-size: 18px;
+		font-family: 'Old Standard TT', serif;
+		color: rgb(184,134,11);
+		background-color: #f7f7f7;
+		background-image: ;
+    }*/
 	
+	.templeGallery h1  {
+		font-family: 'Old Standard TT', serif; 
+        color: rgb(184,134,11);
+        margin: 1em;
+        text-align: center;
+}	
+
+    section>article {
+		background-color: #FFF8DC;/*Cornsilk*/
+        color:rgb(184,134,11);
+        border: none;
+		box-sizing: border-box;
+		border-style: double;
+		justify-content: center;
+		align-items: center;
+        border-radius: 5px 5px;
+        padding: 0 5px 0 5px;
+        margin: 2em 1em; 
+		text-align: center;
+    }
 	
 /*Reservations*/
 
