@@ -7,6 +7,7 @@
 			
 	nav {
     display: inline-flex;
+	
 	justify-content: center;
 	background: rgb(32,73,78);
 	width: 100%;
@@ -54,14 +55,6 @@ nav ul li{
 		background-color: rgb(184,134,11);
 		color: rgb(32,73,78);
 		}	
-		
-	.templeGridMain {
-		padding: 1rem 2%;
-		display: grid;
-		grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-		/*grid-template-rows: 1fr 1fr 1fr;*/
-		grid-column-gap: 5px;
-		grid-row-gap: 5px;		
 
 	
 /*  Picture Gallery Grid displays 3 across and shodow box for large format only */
