@@ -278,11 +278,11 @@ section.services2 {
 	font-style: regular;
 	justify-content: center;
 	align-items: center;
-	border: 3px solid #0B3A59;
+	border: 3px solid #B8860B;
     padding: 2px;
     border-radius: 50px 20px;
 	background-image: rgb(32,73,78);
-	opacity: .95;
+	opacity: .25;
 }
 
 
@@ -317,20 +317,30 @@ section.SnowflakeWeather-Report {
 	width: flex;
 	margin: 1rem;
 	text-align: justify;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	line-height: 35%;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Old Standard TT', serif;
 	color: #black;
 	font-style: regular;
 	justify-content: center;
 	align-items: center;
-	border: 3px solid #0B3A59;
+	border: 2px solid #0B3A59;
     padding: 2px;
-    border-radius: 50px 20px;
-	background-image: linear-gradient(to bottom,
-	#009ea4, #5ab78c, #b2c97f);
-	opacity: .75;
+    border-radius: 10px 10px;
+	background-image: rgb(32,73,78));
+	opacity: .25;
+}
+
+.currentS img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+	height: 10%;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	border-radius: .5%;
 }
 
 /*TemplesCarousel*/
