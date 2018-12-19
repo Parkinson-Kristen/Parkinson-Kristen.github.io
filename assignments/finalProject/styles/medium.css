@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) and (max-width: 850px) {
     
 	/*Medium View navigation display */
 	nav button {display: none;}
@@ -28,30 +28,29 @@ nav ul li{
 	
 /*nav bar - individual tabs*/	
 nav ul li a {
-    color: #D5F9F6;
+    background: rgb(32,73,78);
+	color: rgb(184,134,11);
     padding: auto;
     text-decoration: none;
     font-size: 1.1rem;
 	text-decoration: none;
     }
-
+	
 /*for highlighting active box*/
 nav ul li.active  {
-    color: #B8860B;
-	background-color: transparent;
-	text-decoration: bold;
+    color: rgb(184,134,11);
     }
 
 nav ul li.active a {
-    background-image: #B8860B;
-	color: white;
+    background-color: rgb(184,134,11);
+	color: rgb(32,73,78);
     }
 
 /*nav bar hover feature*/
 nav ul li a:hover {
-	
-    background-color: #B8860B;
-    color: rgb(32,73,78);
+	flex: 1.1;
+	background-color: rgb(184,134,11);
+	color: rgb(32,73,78);
     }	
 
 	
@@ -102,7 +101,7 @@ nav ul li a:hover {
  
     div.pictureGallery {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
@@ -114,7 +113,7 @@ nav ul li a:hover {
 	.introGrid {
 		padding: 1rem 2%;
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr;
 		grid-column-gap: 5px;
 		grid-row-gap: 5px;

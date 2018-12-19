@@ -1,7 +1,7 @@
 {
 	"temple": [{
 			"name": "Snowflake Arizona Temple",
-			"imgPath": "https://parkinson-kristen.github.io/assignments/finalProject/images/Snowflake-temple2.jpg",
+			"imgPath": "https://parkinson-kristen.github.io/assignments/finalProject/images/Snowflake-temple1.jpg",
 			"address": ["1875 W. Canyon Dr",
 				"Snowlake, AZ 85937-6014",
 				"United States"
@@ -69,16 +69,19 @@
 			"yearAnnounced": "April 2, 2000",
 			"groundbreaking": "September 23, 2000",
 			"dedicated": "March 3, 2002",
+			
+			"schedule": "Schedule for Saturday, January 5, 2019:",
+			"endowments": "8:00 AM",
+			"9:30 AM (in Navajo), 11:00 AM, 1:30 PM, 3:00 PM and 4:30 PM",
 
-			"endowments": "",
+			"initiatory": "For initiatory information and schedule, please call the temple.",
 
-			"initiatory": "",
+			"baptism": "7:30 AM - 12:30 PM: Appointment Preferred",
+			"1:00 PM - 5:00 PM: Family Priority Time - Appointment Preferred",
 
-			"baptism": "",
+			"sealings": "For sealing information and schedule, please call the temple.",
 
-			"sealings": "",
-
-			"templeClosures": "",
+			"templeClosures": "Temple will be closed on Tuesday, January 1, 2019; and all Sundays and Mondays with the exception of Monday, January 21st",
 
 			"addlInformation": [
 				"To schedule an appointment for living ordinances (such as your own endowment, marriage, or sealing), please call the temple.",
@@ -87,6 +90,296 @@
 				"initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during ",
 				"your visit. For additional help and information, please call the temple."
 			]
-		}
+		},
+		{
+		"name": "Gilbert Arizona Temple",
+			"imgPath": "https://parkinson-kristen.github.io/assignments/finalProject/images/Gilbert-temple2.jpg",
+			"address": ["3301 S. Greenfield Rd",
+				"Gilbert, AZ 85297",
+				"United States"
+			],
+			"telephone": "1-480-822-5000",
+			"email": "really@youvegottobekiddingme.org",
+			"services": ["Clothing rental available",
+				"No cafeteria available",
+				"No patron housing available",
+				"Distribution center nearby "
+			],
+
+			"templeHistory": ["On Monday, September 22, 2008, just under 5 months from the time the Gilbert Arizona Temple was ",
+			"announced, Church representatives met with Town staff in a pre-application meeting to discuss the approval process ",
+			"for construction of the temple and a future meetinghouse.",
+
+			"On Wednesday, August 5, 2009, legal representative for the Church, Paul Gilbert, presented preliminary plans for ".
+			"the Gilbert Arizona Temple to the Town of Gilbert Planning Commission. He apologized that a final design review ",
+			"package had not yet been submitted and explained:'This temple is going to be a very unique temple. It won't follow ",
+			"the typical pattern and paragon that has been used in many of the other temples. It's designed to be a very special ",
+			"temple and, therefore, it is taking longer to do the details on coming forth with the building and what it will look ",
+			"like' He reassured the Commission, however, that the final design would be submitted 'very shortly.' For illustrative ",
+			"purposes, the Draper Utah Temple was used on the preliminary site plans.2 Overseeing the design is Gregory B. Lambright ",
+			"of Architekton—an architectural firm located in Tempe.",
+
+			"The Planning Commission (watch video) discussed three requests put forth for a 21-acre parcel on the southeast corner ",
+			"of Greenfield and Pecos Roads that would permit construction of the 180-foot Gilbert Arizona Temple and a future adjoining ",
+			"meetinghouse. The requests included (1) a Minor General Plan Amendment to change the land use classification from Residential ",
+			"to General Commercial, (2) an ordinance to change the zoning from Single Family to General Commercial with a Planned Area ",
+			"Development Overlay, and (3) a use permit to allow a Large Scale Religious facility within a General Commercial zoning ",
+			"district. No formal action was taken by the Commission at this study session",
+
+			"The proposed PAD modifications—many of which stemmed from burial of unsightly utility lines—also included modifications ",
+			"intended to beautify the temple site including parking-lot-shielding berms, a 6-to-8-foot perimeter view fence, meandering ",
+			"pedestrian sidewalks, a collector street center median, and possible roundabout. The Church offered to shoulder the entire ",
+			"expense of the costly utility line project, an act which was heartily commended by Commissioner Chad Fuller.",
+
+			"On Wednesday, September 2, 2009, the Planning Commission (watch video) held a hearing on the Gilbert Arizona Temple project. ",
+			"Public comment was made by just one citizen, who spoke in favor of the project. Following the hearing, the Commission carried ",
+			"motions recommending to the Town Council approval of the requested Minor General Plan Amendment, zoning classification ",
+			"change, and Conditional Use Permit (view staff report). Concept drawings presented to the public showed a temple with a ",
+			"single central spire rising 180 feet high with beautiful circular gardens flanking the north and south sides. A circular ",
+			"feature was also shown on the east side (or front side) of the temple, which terminated a strip of landscaping that stretched ",
+			"the length of the parking lot.",
+
+			"On Tuesday, September 29, 2009, the Gilbert Town Council (watch video) unanimously passed the Minor General Plan Amendment, ",
+			"zoning classification change, and Conditional Use Permit necessary to permit construction of the temple. Nearly 70 citizens ",
+			"filed to speak in favor of the project, and no one filed to speak in opposition of the project. Although the design of the ",
+			"temple had not yet been finalized, concept drawings presented at the hearing helped to illustrate the height of the building, ",
+			"which was the main focus of the presentation by Paul Gilbert, legal representative for the Church. He defended the proposed ",
+			"height of the building and spire as consistent with nearby facilities—most notably the Mercy Gilbert Medical Center—and with ",
+			"other Latter-day Saint temples, noting that it is an important expression of religious devotion—a symbol of reaching to heaven.",
+
+			"On December 28, 2009, the deed transferring ownership of the temple site to the Church was recorded in the Maricopa County records.",
+
+			"On June 10, 2010, final plans went before the Town of Gilbert Design Review Board for preliminary evaluation of the development ",
+			"of a temple, accessory structure, and future meetinghouse. The five-level temple is described as 82½ feet tall with a spire reaching ",
+			"195 feet, capped with a golden angel Moroni. The highly detailed ivory exterior will feature high quality pre-cast concrete and stone ",
+			"accentuated with fine rustications and beautifully crafted art glass windows. The floor plan includes a sub-basement for mechanical ",
+			"equipment; a basement for the baptistry; a first floor for the entry, dressing rooms, and administrative offices; a second floor for ",
+			"the chapel and endowment rooms; and a third floor for sealing rooms, waiting rooms, and a child care center. The wrought-iron fenced ",
+			"grounds will include fountains, shaded plazas, and lush landscaping featuring 10 kinds of trees, 5 palm varieties, and 24 species of ",
+			"shrubs, groundcovers, and vines with trellises, arbors and pergolas placed throughout the site.",
+
+			"On July 15, 2010, the Town of Gilbert Design Review Board voted to approve plans for the Gilbert Arizona Temple. Approval was made ",
+			"subject to some minor changes that do not affect the overall design. Construction of a meetinghouse was also approved, which would ",
+			"likely be built within two to four years. The two structures will share a 658-car parking lot."
+			],
+
+			"templeFacts": ["The Gilbert Arizona Temple was the fourth temple built in Arizona, following the Mesa Arizona Temple ",
+			"(1927), the Snowflake Arizona Temple (2002), and The Gila Valley Arizona Temple (2010).",
+
+			"During the month-long public open house of the Gilbert Arizona Temple, 407,020 guests toured the facility. Local media ",
+			"covered the event including a 30-minute prime-time special produced by one news station.",
+
+			"President Thomas S. Monson presided at the dedication of the Gilbert Arizona Temple, but at his request, the prayer in ",
+			"the first dedicatory session was offered by President Henry B. Eyring, first counselor in the First Presidency."
+			],
+
+			"yearAnnounced": "April 2, 2008",
+			"groundbreaking": "November 13, 2010 by Claudio R. M. Costa",
+			"dedicated": "March 2, 2014 by Thomas S. Monson (read by Henry B. Eyring)",
+
+			"schedule": "Schedule for Saturday, January 5, 2019:",
+			"endowments": "5:30 AM, 6:15 AM, 7:00 AM, 7:45 AM, 8:30 AM (Spanish), 9:15 AM, 10:00 AM, 10:45 AM"
+			"11:30 AM, 12:15 PM, 1:00 PM, 1:45 PM, 2:30 PM, 3:15 PM, 4:00 PM, 4:45 PM, 5:30 PM, 6:15 PM,"
+			"7:00 PM and 7:30 PM",
+
+			"initiatory": "For initiatory information and schedule, please call the temple.",
+
+			"baptism": "5:30 AM - 11:00 AMChurch Groups - Appointment Preferred", 
+			"11:00 AM - 4:00 PMNo Appointment Needed,", 
+			"4:00 PM - 8:30 PMFamily Priority Time - Appointment Preferred", 
+
+			"sealings": "For sealing information and schedule, please call the temple.",
+
+			"templeClosures": "Temple will be closed on Tuesday, January 1, 2019; and all Sundays and Mondays",
+
+			"addlInformation": [
+				"To schedule an appointment for living ordinances (such as your own endowment, marriage, or sealing), please call the temple.",
+				"To schedule a group visit, please call the temple.",
+				"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), ",
+				"initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during ",
+				"your visit. For additional help and information, please call the temple."
+			]
+	},
+	{
+		"name": "Tucson Arizona Temple",
+			"imgPath": "https://parkinson-kristen.github.io/assignments/finalProject/images/Tucson-temple.jpg",
+			"address": ["7281 North Skyline Dr",
+				"Tucson, AZ 85718",
+				"United States"
+			],
+			"telephone": "1-520-395-3900",
+			"email": "really@youvegottobekiddingme.org",
+			"services": ["No clothing rental available",
+				"No cafeteria available",
+				"No patron housing available",
+				"Distribution center nearby "
+			],
+
+			"templeHistory": ["ANGEL MORONI RAISING",
+
+			"The angel Moroni was placed atop the dome of the Tucson Arizona Temple on July 7, 2016.".
+
+			"GROUNDBREAKING CEREMONY",
+
+			"On Saturday, October 17, President Dieter F. Uchtdorf, second counselor in the First Presidency, presided at the ",
+			"groundbreaking ceremony for the Tucson Arizona Temple. Services were broadcast live to area meetinghouses in English and in Spanish.",
+
+			"CONSTRUCTION APPROVAL",
+
+			"In February 2013, a Church project manager submitted preliminary plans to Pima County to propose making Church-owned property in the ",
+			"Catalina Foothills, where East Ina Road curves into Skyline Drive, the site for the Tucson Arizona Temple. The 7-acre site was purchased ",
+			"by the Church in 2010, and a residence to the north was subsequently acquired.",
+
+			"The documents included surveys and environmental studies plus site and floor plans that used a rendering of a two-story, 34,000-square-foot ",
+			"mission-style building to represent the Tucson Arizona Temple. Plans proposed a 260-space parking lot with large areas of natural desert ",
+			"open space to provide a buffer for the surrounding neighborhood. No rezoning was required for the site, as it is already zoned to allow ",
+			"religious buildings.",
+
+			"The Shadow Roc Homeowners Association—the neighborhood where the proposed site is located—previously opposed an office development at that ",
+			"location. But association president, Stan Kartchner, himself a member of the Church, responded favorably to the temple plans. He indicated ",
+			"that a temple is "one of the more favorable uses we could imagine" for the property. He expressed his desire for Church representatives to ",
+			"open a dialogue with neighbors as the plans progress.",
+
+			"TEMPLE DESIGN"
+
+			"The Tucson Arizona Temple was originally designed with a 95-foot steeple, which would have required a special permit. However, plans were ",
+			"altered, and the steeple was replaced with a dome-shaped cupola—reminiscent of the famous dome that crowns Italy's Florence Cathedral—which ",
+			"does comply with Pima County planning and zoning regulations.",
+
+			"TEMPLE SITE",
+
+			"The site for the Tucson Arizona Temple is located in the Catalina Foothills where East Ina Road curves into Skyline Drive."
+			],
+
+			"templeFacts": ["The Tucson Arizona Temple will be the sixth temple built in Arizona, following the Mesa Arizona Temple (1927), ",
+			"the Snowflake Arizona Temple (2002), The Gila Valley Arizona Temple (2010), the Gilbert Arizona Temple (2014), and the Phoenix ",
+			"Arizona Temple (2014).",
+
+			"Cactus plants at the Tucson Arizona Temple site were transplanted to an on-site nursery and reintegrated into the final landscaping."
+			],
+
+			"yearAnnounced": "October 6 2012",
+			"groundbreaking": "October 17 2015 by Dieter F. Uchtdorf",
+			"dedicated": "August 13 2017 by Dieter F. Uchtodorf",
+
+			"schedule": "Schedule for Saturday, January 5, 2019:",
+			"endowments": "6:30 AM, 8:00 AM, 9:00 AM (Spanish), 10:00 AM, 11:00 AM, 12:30 PM. "
+			"1:30 PM, 3:00 PM, 4:00 PM, and 5:00 PM",
+
+			"initiatory": "For initiatory information and schedule, please call the temple.",
+
+			"baptism": "6:00 AM - 12:00 PM Church Groups - Appointment Preferred", 
+			"12:00 PM - 2:00 PM Family Priority Time - Appointment Preferred",  
+			"2:00 PM - 6:30 PM No Appointment Needed,"
+
+			"sealings": "For sealing information and schedule, please call the temple.",
+
+			"templeClosures": "Temple will be closed on Tuesday, January 1st, 2019; all Sundays and Mondays except Monday January 21st",
+
+			"addlInformation": [
+				"To schedule an appointment for living ordinances (such as your own endowment, marriage, or sealing), please call the temple.",
+				"To schedule a group visit, please call the temple.",
+				"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), ",
+				"initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during ",
+				"your visit. For additional help and information, please call the temple."
+			]
+	},
+	{
+		"name": "Mesa Arizona Temple",
+			"imgPath": "https://parkinson-kristen.github.io/assignments/finalProject/images/Mesa-temple.jpg",
+			"address": ["101 S. LeSueur",
+				"Mesa, AZ 85204-1030",
+				"United States"
+			],
+			"telephone": "1-480-833-1221",
+			"email": "NONE",
+			"services": ["Clothing rental available",
+				"Cafeteria available",
+				"No patron housing available",
+				"Distribution center nearby "
+			],
+
+			"templeHistory": ["TEMPLE RENOVATION"
+
+			"On May 19, 2018, the Mesa Arizona Temple closed for extensive renovation that will be followed by a public open ",
+			"house and rededication ceremony. During the closure, temple patrons will be accommodated at the Phoenix Arizona ",
+			"Temple and the Gilbert Arizona Temple. The renovations will include:",
+
+			"Exterior maintenance including new roofing and drainage systems", 
+			"Mechanical, electrical, plumbing, and HVAC upgrades",
+			"Interior improvements consistent with the historical character of the building",
+			"Replacement of the furniture and finishes",
+			"Preservation and augmentation of the historic murals",
+			"Replacement of the windows consistent with the originals", 
+			"Major renovation of the grounds that preserves shade trees, replaces the reflection pools, introduces new garden spaces, and better ",
+			"accommodates the Easter Pageant",
+			"Demolition of the current visitors' center and construction of a new visitors' center and FamilySearch center across the street"
+			],
+
+			"templeFacts": ["The Mesa Arizona Temple was the first temple built in Arizona.",
+
+			"The Mesa Arizona Temple was the first temple to present the endowment in a language other than English. (The first ",
+			"non-English session was presented in Spanish in 1945.)",
+
+			"The Mesa Arizona Temple was the first temple to reopen to the public for an open house prior to a rededication.",
+
+			"The Mesa Arizona Temple was originally named the Arizona Temple.",
+
+			"Before the Mesa Arizona Temple was constructed, Arizona members performed temple ordinances in the St. George Utah ",
+			"Temple. Because of the numerous bridal parties that traveled the wagon road between St. George and Arizona, the ",
+			"well-trod path became known as the Honeymoon Trail.",
+
+			"The architects chosen for the Mesa Arizona Temple had recently designed the Utah Capitol Building.",
+
+			"The Mesa Arizona Temple is one of four temples built with no towers or spires. (The others are the Laie Hawaii ",
+			"Temple, the Cardston Alberta Temple, and the Paris France Temple.)",
+
+			"Carved friezes decorate each corner of the top of the temple, depicting the fulfillment of Isaiah's prophecy that ",
+			"the Lord would gather His people in the last days from the four corners of the earth."
+
+			"Instead of a formal open house, tours were offered during the last two years of construction of the Mesa Arizona ",
+			"Temple to any interested visitors."
+
+			"For many years, the Mesa Arizona Temple was known as the 'Lamanite Temple,' as it was the destination of annual ",
+			"temple excursions for Hispanic and Native American members of the Church, especially the Mexican Saints.",
+
+			"The Mesa Arizona Temple was originally constructed with muraled progressive-style ordinance rooms: Creation Room, ",
+			"Garden Room, World Room, and Terrestrial Room (no murals). They were designed around a grand staircase leading to ",
+			"the Celestial Room, occupying the highest level of the temple."
+
+			"The Mesa Arizona Temple was closed in February 1974, for extensive remodeling that equipped the Creation, Garden, ",
+			"and World Rooms for stationary motion-picture presentation of the endowment; the Terrestrial Room became a veil room. ",
+			"The decaying burlap murals were removed from the rooms, and the salvageable pieces were shipped to Church headquarters ",
+			"for preservation and storage. A new entrance and an additional 17,000 square feet were added, providing larger dressing ",
+			"rooms and increasing the number of sealing rooms.",
+
+			"In 1980, a fourth ordinance room was added by converting a space previously used by the female patrons. This allowed ",
+			"endowment sessions to begin every half hour.",
+
+			"In 1991, the preserved sections of the original murals were sent back to the Mesa Arizona Temple for reinstallation and ",
+			"restoration. Only one wall in each room could be restored. The new ordinance room added in 1980, which did not have a mural ",
+			"before, was decorated with sections from the original World Room mural."
+
+			],
+
+			"yearAnnounced": "October 3 1919",
+			"groundbreaking": "April 25 1922 by Heber J. Grant",
+			"dedicated": ["October 23-26 1927 by Heber J. Grant",
+			"Rededication: April 15-16 1975 by Spencer W. Kimball"
+			],
+
+			"schedule": "CLOSED FOR RENOVATIONS",
+			"endowments": "N/A",
+
+			"initiatory": "N/A",
+
+			"baptism": "N/A", 
+
+			"sealings": "N/A",
+
+			"templeClosures": "CLOSED FOR RENOVATIONS",
+
+			"addlInformation": "N/A",
+			},
 	]
 }

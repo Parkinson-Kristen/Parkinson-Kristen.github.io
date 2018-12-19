@@ -1,12 +1,13 @@
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 850px) {
   /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
  
  /*Large View navigation display */
  
 	nav button {display: none;}
-		
-nav {
+			
+	nav {
     display: inline-flex;
+	
 	justify-content: center;
 	background: rgb(32,73,78);
 	width: 100%;
@@ -22,35 +23,40 @@ nav ul {
 }
 	
 nav ul li{
-	padding: 0.35em;
+	padding: .35em;
+	
 	list-style-type: none;
 }
+		
+	/*nav bar - individual tabs*/	
+	nav ul li a {
+		background: rgb(32,73,78);
+		color: rgb(184,134,11);
+		padding: 1rem;
+		text-decoration: none;
+		font-size: 1.1rem;
+		text-decoration: none;
+		}
+
 	
-/*nav bar - individual tabs*/	
-nav ul li a {
-    color: #D5F9F6;
-    padding: 1rem;
-    text-decoration: none;
-    font-size: 1.1rem;
-	text-decoration: none;
-    }
+	/*for highlighting active box*/
+	nav ul li.active  {
+		color: rgb(184,134,11);
+		}
 
-/*for highlighting active box*/
-nav ul li.active  {
-    color: #D5F9F6;
-    }
+	nav ul li.active a {
+		background-color: rgb(184,134,11);
+		color: rgb(32,73,78);
+		}
 
-nav ul li.active a {
-    background-color: #0B3A59;
-    }
+	/*nav bar hover feature*/
+	nav ul li a:hover {
+		flex: 1.1;
+		background-color: rgb(184,134,11);
+		color: rgb(32,73,78);
+		}	
 
-/*nav bar hover feature*/
-nav ul li a:hover {
-	flex: 1.1;
-    background-color: #14A796;
-    color: #0B3A59;
-    }	
-
+		nav ul.hide {display: all;}
 	
 /*  Picture Gallery Grid displays 3 across and shodow box for large format only */
 	div.pictureGallery {
@@ -62,7 +68,7 @@ nav ul li a:hover {
 		grid-row-gap: 5px;
 }
 	div.pictureGallery figure:hover {
-		box-shadow: 3px 15px 10px #B8860B;
+		box-shadow: 3px 15px 10px rgb(32,73,78);
 	}
 	
 /* Home Page - Town Intro pics for large format */
@@ -70,7 +76,7 @@ nav ul li a:hover {
 	.introGrid {
 		padding: 1rem 2%;
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
 		/*grid-template-rows: 1fr 1fr 1fr;*/
 		grid-column-gap: 5px;
 		grid-row-gap: 5px;
