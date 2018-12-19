@@ -2,9 +2,9 @@
 	"temple": [{
 			"name": "Snowflake Arizona Temple",
 			"imgPath": "https://parkinson-kristen.github.io/assignments/finalProject/images/Snowflake-temple1.jpg",
-			"address": ["1875 W. Canyon Dr\n
-				Snowlake, AZ 85937-6014\n
-				United States"
+			"address": ["1875 W. Canyon Dr",
+				"Snowlake, AZ 85937-6014",
+				"United States"
 			],
 			"telephone": "1-928-536-6626",
 			"email": "really@youvegottobekiddingme.org",
@@ -15,13 +15,14 @@
 				"Endowment sessions available in English, Spanish and Navajo"
 			],
 
-			"templeHistory": ["The site for the Snowflake Arizona Temple is situated on the west end of town on top of a bluff scattered with cedar trees that has become known as 'Temple Hill.' 
-				Unlike many other recently constructed temples, the temple does not share property with a 
-				stake center or Church meetinghouse but is adjacent to a golf course. Approximately 8 feet 
-				was removed from the top of the knoll to accommodate the two-level temple, patterned after 
-				the Winter Quarters Nebraska Temple, with the lower level partially set into the knoll. The 
-				temple district includes Arizona stakes in Snowflake, Taylor, Eagar, St. Johns, Pinetop/Lakeside,
-				Show Low, Flagstaff, Tuba City, Holbrook, Winslow, and Chinle.", 
+			"templeHistory": ["The site for the Snowflake Arizona Temple is situated on the west end of town on ",
+				"top of a bluff scattered with cedar trees that has become known as 'Temple Hill.' ",
+				"Unlike many other recently constructed temples, the temple does not share property with a ",
+				"stake center or Church meetinghouse but is adjacent to a golf course. Approximately 8 feet ",
+				"was removed from the top of the knoll to accommodate the two-level temple, patterned after ",
+				"the Winter Quarters Nebraska Temple, with the lower level partially set into the knoll. The ",
+				"temple district includes Arizona stakes in Snowflake, Taylor, Eagar, St. Johns, Pinetop/Lakeside, ",
+				"Show Low, Flagstaff, Tuba City, Holbrook, Winslow, and Chinle.", 
 				
 
 				"Temple landscaping and plantlife complement the natural surroundings. In front of the temple's",
