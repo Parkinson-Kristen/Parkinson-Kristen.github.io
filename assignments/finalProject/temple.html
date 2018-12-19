@@ -9,7 +9,7 @@
      <link rel="stylesheet" href="styles/normalize.css">
 	 <link rel="stylesheet" href="styles/medium.css">
      <link rel="stylesheet" href="styles/large.css">
-	 <link rel="stylesheet" href="styles/main.css">
+	 <link rel="stylesheet" href="styles/main.css"> 
 	 
 	 <!--Google Fonts -->
 	<link rel="stylesheet"
@@ -26,11 +26,11 @@
 	<nav>
 	<div class="logo">
 	<picture>
-    <img src="images/logoMainTransparent.jpg" alt="Logo Icon" class="left"
-		srcset= "images/logoMainTransparent150.jpg, images/logoMainTransparent100.jpg">
+    <img src="images/logoGr.jpg" alt="Logo Icon" class="left"
+		srcset= "images/logoGr150.jpg, images/logoGr100.jpg">
 	</picture>
 	</div>
-		 <button onclick="toggleMenu()">&#9776</button>
+		 <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">	 	
     	<li><a href="landing.html">Home</a></li>
     	<li><a href="temple.html">Temples</a></li>
@@ -95,7 +95,15 @@
 		  <span class="dot" onclick="currentSlide(4)"></span> 
 		</div>
   
-	
+  <div class="templeweather">
+	<section class="SnowflakeWeather-Report">
+	  
+	  <div class="currentS">
+	  <h4>Weather Report for<span id="city"></span><img alt="Weather Icon" id="weatherimage"> <span id="description">  </span></h4>
+			<p>Current Temperature : <span id="current">  </span>&deg;F</p>
+		</div>	
+    </section>
+	</div>
 	<!--<section class="templeGrid"></section>-->
 </center>
 </main>
@@ -105,7 +113,7 @@
 		<div class="logo">
 			<picture>
 				<img src="images/LogoTransp.jpg" alt="Logo Icon" class="left"
-			srcset= "images/LogoTransp150.jpg, images/LogoTransp100.jpg">
+				srcset= "images/LogoTransp150.jpg, images/LogoTransp100.jpg">
 			</picture>
 		</div>
 	
@@ -117,8 +125,7 @@
 		  
 		  <b>Reservations:</b> 1.800.555.5555
 		</div>
-		<div class="attributaions">
-		</div>
+		<div class="attributaions">Current Weather Data courtesty of: <a href="https://OpenWeatherMap.org">OpenWeatherMap.org</a></div>
 	</section>
     <section class="footer-id">&copy;2018 BYU-I CIT230: Final Project | Kristen Parkinson | <span id="currentdate">Current Date Placeholder</span></section>
   </footer>
@@ -138,6 +145,7 @@
 	<script src="scripts/wayfind.js"></script>
 	<!--<script src="scripts/jsonTemples.js"></script>-->
 	<script src="scripts/carousel.js"></script>
+	<script src="scripts/weather-Snowflake.js"></script>
 	
 	
 	

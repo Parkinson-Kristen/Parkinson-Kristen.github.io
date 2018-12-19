@@ -8,6 +8,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 		font-size: 1.6rem;
 		color: rgb(184,134,11);
 	}
+	
+	/*nav button {display: none;}*/
 		
 	nav {	
 		background-color:rgb(32,73,78);
@@ -58,9 +60,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 		color: rgb(32,73,78);
 		}	
 		
-	nav ul.hide {display: none;}
+	/*nav ul.hide {
+		display: none;
+		}*/
 
-	/*nav li:first-child a {border-left: none;}*/
 
 body {
   display: 100%; 
@@ -202,6 +205,14 @@ div.logoheading {
     text-align: center;
 }
 
+.attributaions {
+	margin: 0rem 0 0 0rem;
+	background-color: #FFF8DC;
+	color: #B8860B;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
 
 /*Home*/
 
@@ -212,6 +223,45 @@ main {
 	font-size: 24px;
 	background-image: hotel-lobby.jpeg;
 }
+
+.templeGridMain {
+		padding: 3rem 2%;
+		display: 50%;
+		grid-template-columns: flex;
+		display: 100%; 
+		margin: 0.5rem;
+		font-size: 18px;
+		font-family: 'Old Standard TT', serif;
+		color: rgb(184,134,11);
+		background-color: #FFF8DC;
+		background-image: ;
+    }
+	
+	    section>article {
+		background-color: #FFF8DC;
+        color:rgb(184,134,11);
+        border: none;
+		box-sizing: border-box;
+		border-style: double;
+		justify-content: center;
+		align-items: center;
+        border-radius: 10px 33px;
+        padding: 0 10px 0 10px;
+        margin: 2em 1em; 
+		text-align: center;
+    }
+	
+	section img {
+		width: 100%;
+	}
+	
+	.templeGallery h1  {
+		font-family: 'Old Standard TT', serif; 
+        color: rgb(184,134,11);
+        margin: 1em;
+        text-align: center;
+}	
+
  .introGrid h2 {
         font-family: 'Old Standard TT', serif;
         color: rgb(184,134,11);
@@ -298,7 +348,9 @@ section.services2 {
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
 }*/
-
+.templeweather (
+	display: grid;
+	}
 
 section.SnowflakeWeather-Report {
 	position: absolute;
@@ -308,6 +360,50 @@ section.SnowflakeWeather-Report {
 }
 
 .currentS {
+	display: flex;
+	flex-shrink: 3;
+	/*transform: translate(-50%, -50%);*/
+	margin: 0;
+	box-sizing: border-box;
+	border-style: double;
+	width: flex;
+	margin: 1rem;
+	text-align: justify;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 35%;
+	font-family: 'Old Standard TT', serif;
+	color: #black;
+	font-style: regular;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #0B3A59;
+    padding: 2px;
+    border-radius: 10px 10px;
+	background-image: rgb(32,73,78));
+	opacity: .95;
+}
+
+.currentS img{
+	display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+	height: 10%;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	border-radius: .5%;
+}
+
+/*Gilbert Weather*/
+section.GilbertWeather-Report {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	bottom: 5%
+}
+
+.currentG {
 	display: block;
 	flex-shrink: 3;
 	/*transform: translate(-50%, -50%);*/
@@ -332,7 +428,7 @@ section.SnowflakeWeather-Report {
 	opacity: .25;
 }
 
-.currentS img{
+.currentG img{
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -342,6 +438,95 @@ section.SnowflakeWeather-Report {
 	margin-bottom: .2em;
 	border-radius: .5%;
 }
+
+/*Tucson Weather*/
+section.TucsonWeather-Report {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	bottom: 5%
+}
+
+.currentT {
+	display: block;
+	flex-shrink: 3;
+	/*transform: translate(-50%, -50%);*/
+	margin: 0;
+	box-sizing: border-box;
+	border-style: double;
+	width: flex;
+	margin: 1rem;
+	text-align: justify;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 35%;
+	font-family: 'Old Standard TT', serif;
+	color: #black;
+	font-style: regular;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #0B3A59;
+    padding: 2px;
+    border-radius: 10px 10px;
+	background-image: rgb(32,73,78));
+	opacity: .25;
+}
+
+.currentT img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+	height: 10%;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	border-radius: .5%;
+}
+
+/*Mesa Weather*/
+section.MesaWeather-Report {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	bottom: 5%
+}
+
+.currentM {
+	display: block;
+	flex-shrink: 3;
+	/*transform: translate(-50%, -50%);*/
+	margin: 0;
+	box-sizing: border-box;
+	border-style: double;
+	width: flex;
+	margin: 1rem;
+	text-align: justify;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 35%;
+	font-family: 'Old Standard TT', serif;
+	color: #black;
+	font-style: regular;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #0B3A59;
+    padding: 2px;
+    border-radius: 10px 10px;
+	background-image: rgb(32,73,78));
+	opacity: .25;
+}
+
+.currentM img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+	height: 10%;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	border-radius: .5%;
+}
+
 
 /*TemplesCarousel*/
 
@@ -642,9 +827,9 @@ section.footer-bar{
     width: 100%;
     height: auto;
 	padding: 1rem 2%;
-		display: grid;
-		grid-template-columns: .5fr 1fr 1fr;
-		/*grid-template-rows: 1fr 1fr 1fr;*/
+	display: grid;
+	/*grid-template-columns: .25fr 1fr 1fr;*/
+	grid-template-rows: .25fr 1fr 1fr 1fr;
 		grid-column-gap: 5px;
 		grid-row-gap: 5px;
 }

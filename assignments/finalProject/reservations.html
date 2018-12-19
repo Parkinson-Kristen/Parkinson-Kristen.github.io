@@ -3,8 +3,8 @@
 <head> 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">   
-      <title>Services</title>
-      <meta name="Services offered by Temple Inn & Suites" content="Babysitting, full-time missionary suites, catering, event planning">
+      <title>Reservations</title>
+      <meta name="Reservation portal for Temple Inn & Suites" content="Typle of room, dates, client information">
     
      <link rel="stylesheet" href="styles/normalize.css">
 	 <link rel="stylesheet" href="styles/medium.css">
@@ -22,21 +22,16 @@
 <body>
 
   <header>
-	<!--<div class="logo">
-	<picture>
-    <img src="images/logoMain.jpg" alt="Logo Icon" class="left"
-		srcset= "images/logoMain100.jpg, images/logoMain50.jpg">
-	</picture>
-	</div>-->
+
 	<nav>
 	<div class="logo">
 	<picture>
-    <img src="images/logoMainTransparent.jpg" alt="Logo Icon" class="left"
-		srcset= "images/logoMainTransparent150.jpg, images/logoMainTransparent100.jpg">
+    <img src="images/logoGr.jpg" alt="Logo Icon" class="left"
+		srcset= "images/logoGr150.jpg, images/logoGr100.jpg">
 	</picture>
 	</div>
-		 <button onclick="toggleMenu()">&#9776</button>
-    <ul id="primaryNav" class="hide">	 	
+		 <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">	  	
     	<li><a href="landing.html">Home</a></li>
     	<li><a href="temple.html">Temples</a></li>
     	<li><a href="reservations.html">Reservations</a></li>
@@ -83,7 +78,6 @@
 				<label><span>Departure:</span><input type="date" name="date"></label>
 				<br><br>
 				
-				<iframe src="https://calendar.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=kparkinson%40ttsd.k12.or.us&amp;color=%231B887A&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 				
 				<br>
 				<label><span>Number of Rooms:</span><input type="number" name="number"></label><br><br>
@@ -143,7 +137,7 @@
          </fieldset><br>
          
          
-          <input type="submit" value="Submit your report" class="submitbutton">
+          <input type="submit" value="Submit your request" class="submitbutton">
 		  <br>
         
                 
@@ -154,26 +148,25 @@
  </main>
     
   <footer>
-	<div class="logo">
-		<picture>
-			<img src="images/LogoTransp.jpg" alt="Logo Icon" class="left"
-			srcset= "images/LogoTransp150.jpg, images/LogoTransp100.jpg">
-		</picture>
-	</div>
+	<section class="footer-bar">
+		<div class="logo">
+			<picture>
+				<img src="images/LogoTransp.jpg" alt="Logo Icon" class="left"
+				srcset= "images/LogoTransp150.jpg, images/LogoTransp100.jpg">
+			</picture>
+		</div>
 	
-    <section class="contact">
-      Temple Inn & Suites Headquarters
-      4800 Montgomery Ln Ste.#300
-      Bethesda, MD 20814
-	  info@templeinn&suites.com
-	  
-	  <b>Reservations:</b> 1.800.555.5555
-    </section>
-	<br>
-    <section class="footer-bar">&copy;2018 BYU-I CIT230: Final Project | Kristen Parkinson | <span id="currentdate">Current Date Placeholder</span>
-    </section>
-	<section class="Attributaions">
+		<div class="contact">
+		  Temple Inn & Suites Headquarters
+		  4800 Montgomery Ln Ste.#300
+		  Bethesda, MD 20814
+		  info@templeinn&suites.com
+		  
+		  <b>Reservations:</b> 1.800.555.5555
+		</div>
+		<div class="attributaions">Current Weather Data courtesty of: <a href="https://OpenWeatherMap.org">OpenWeatherMap.org</a></div>
 	</section>
+    <section class="footer-id">&copy;2018 BYU-I CIT230: Final Project | Kristen Parkinson | <span id="currentdate">Current Date Placeholder</span></section>
   </footer>
     
 	<script src="scripts/currentdate.js"></script>
