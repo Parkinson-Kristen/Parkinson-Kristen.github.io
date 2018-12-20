@@ -72,6 +72,16 @@ body {
   background-image: ;
 }
 
+figure {
+  border-top: none;
+  padding-top: 0;
+}
+figcaption {
+  padding: 0.5em;
+  font-size: 18px;
+  font-family: 'Old Standard TT', serif;
+  color: rgb(184,134,11);
+}
 
 h1 {
     Font-size: 24px;
@@ -301,37 +311,177 @@ section.services2 {
 
 
 section.SnowflakeWeather-Report {
-	position: absolute;
+	position: relative;
 	top: 10%;
-	left: 10%;
-	bottom: 5%
+	left: 3%;
+	bottom: 3%
 }
 
 .currentS {
 	display: block;
-	flex-shrink: 3;
+	flex-shrink: 1;
 	/*transform: translate(-50%, -50%);*/
 	margin: 0;
 	box-sizing: border-box;
 	border-style: double;
-	width: flex;
+	width: auto;
 	margin: 1rem;
 	text-align: justify;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	line-height: 35%;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Old Standard TT', serif;
 	color: #black;
 	font-style: regular;
 	justify-content: center;
 	align-items: center;
-	border: 3px solid #0B3A59;
+	border: 1px solid rgb(184,134,11);
     padding: 2px;
-    border-radius: 50px 20px;
-	background-image: linear-gradient(to bottom,
-	#009ea4, #5ab78c, #b2c97f);
-	opacity: .75;
+    border-radius: 5px 5px;
+	background-image: rgb(32,73,78);
+	opacity: .95;
 }
+
+.currentS img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+	height: 10%;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	border-radius: .5%;
+}
+
+section.GilbertWeather-Report {
+	position: relative;
+	top: 10%;
+	left: 3%;
+	bottom: 3%
+}
+
+.currentG {
+	display: block;
+	flex-shrink: 1;
+	/*transform: translate(-50%, -50%);*/
+	margin: 0;
+	box-sizing: border-box;
+	border-style: double;
+	width: auto;
+	margin: 1rem;
+	text-align: justify;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 35%;
+	font-family: 'Old Standard TT', serif;
+	color: #black;
+	font-style: regular;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgb(184,134,11);
+    padding: 2px;
+    border-radius: 5px 5px;
+	background-image: rgb(32,73,78);
+	opacity: .95;
+}
+
+.currentG img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+	height: 10%;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	border-radius: .5%;
+}
+
+section.TucsonWeather-Report {
+	position: relative;
+	top: 10%;
+	left: 3%;
+	bottom: 3%
+}
+
+.currentT {
+	display: block;
+	flex-shrink: 1;
+	/*transform: translate(-50%, -50%);*/
+	margin: 0;
+	box-sizing: border-box;
+	border-style: double;
+	width: auto;
+	margin: 1rem;
+	text-align: justify;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 35%;
+	font-family: 'Old Standard TT', serif;
+	color: #black;
+	font-style: regular;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgb(184,134,11);
+    padding: 2px;
+    border-radius: 5px 5px;
+	background-image: rgb(32,73,78);
+	opacity: .95;
+}
+
+.currentT img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+	height: 10%;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	border-radius: .5%;
+}
+
+section.MesaWeather-Report {
+	position: relative;
+	top: 10%;
+	left: 3%;
+	bottom: 3%
+}
+
+.currentM {
+	display: block;
+	flex-shrink: 1;
+	/*transform: translate(-50%, -50%);*/
+	margin: 0;
+	box-sizing: border-box;
+	border-style: double;
+	width: auto;
+	margin: 1rem;
+	text-align: justify;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 35%;
+	font-family: 'Old Standard TT', serif;
+	color: #black;
+	font-style: regular;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgb(184,134,11);
+    padding: 2px;
+    border-radius: 5px 5px;
+	background-image: rgb(32,73,78);
+	opacity: .95;
+}
+
+.currentM img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+	height: 10%;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	border-radius: .5%;
+}
+
 
 /*TemplesCarousel*/
 
@@ -537,9 +687,9 @@ input[type=radio] { color: blue; }
 
 input[type=radio]:hover { background-color: blue; color: #fff; }
 
-input:valid   {	background-color: ##f4c03e;  color: ##f4c03e;}
+input:valid   {	background-color: rgb(255,248,220);  color: ##f4c03e;}
 
-input:invalid { background-color: ##f4c03e; color: rgb(32,73,78);}
+input:invalid { background-color: rgb(255,248,220); color: rgb(184,134,11);}
 
 
 /*Contact Us*/
@@ -557,9 +707,9 @@ input[type=radio] { color: blue; }
 
 input[type=radio]:hover { background-color: blue; color: #fff; }
 
-input:valid   {	background-color: lightgreen;  color: #0B3A59;}
+input:valid   {	background-color: rgb(255,248,220);  color: #0B3A59;}
 
-input:invalid { background-color: lightgreen; color: pink;}
+input:invalid { background-color: rgb(255,248,220); color: rgb(184,134,11);}
 
 
 
@@ -668,7 +818,11 @@ section.footer-id{
 }
 
 .attributions{
-	
+	text-align: center;
+	overflow-wrap: normal;
+	overflow-wrap: break-word;
+    width: 100%;
+    height: auto;
 }
 
 section.contact img {

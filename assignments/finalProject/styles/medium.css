@@ -1,12 +1,18 @@
 @media only screen and (min-width: 500px) and (max-width: 850px) {
     
 	/*Medium View navigation display */
-	nav button {display: none;}
+	nav button {
+		margin: .2rem 2%;
+		background-color: rgb(32,73,78);
+		border: none;
+		font-size: 1.6rem;
+		color: rgb(184,134,11);
+	}
 		
-nav {
+	nav {
     display: inline-flex;
 	overflow-wrap: normal; 
-	justify-content: center;
+	justify-content: left;
 	background: rgb(32,73,78);
 	width: 100%;
     margin: 0;
